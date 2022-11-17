@@ -14,3 +14,7 @@ print("My", "name", "is", "Monty", "Python.", sep="-")
 print("My", "name", "is", "Monty", "Python.", sep=";")
 # prints out with seperation and end statement with * but does not start on new line
 print("My", "name", "is", sep="_", end="*")
+
+# Line 19 is a string and Line 20 is an integer 
+print("2")
+print(2)
