@@ -67,9 +67,11 @@ miles = 7.38
 
 miles_to_kilometers = (miles * 1.61)
 kilometers_to_miles = (kilometers / 1.61)
+print(miles + kilometers)
 
 print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+
 
 #input allows the computer to read the user input
 print("Tell me something")
@@ -78,3 +80,5 @@ print("Thanks for telling me", anything)
 # you can use the input function to print to the terminal also and ask user for input
 color = input("Tell me a color\n")
 print("Is", color, "your favorite color")
+# You can prints multiple strings or variable in one line 
+print(anything + " wow " + color)
