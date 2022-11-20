@@ -75,3 +75,6 @@ print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
 print("Tell me something")
 anything = input()
 print("Thanks for telling me", anything)
+# you can use the input function to print to the terminal also and ask user for input
+color = input("Tell me a color\n")
+print("Is", color, "your favorite color")
