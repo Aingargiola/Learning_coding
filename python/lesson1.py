@@ -70,3 +70,8 @@ kilometers_to_miles = (kilometers / 1.61)
 
 print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
+
+#input allows the computer to read the user input
+print("Tell me something")
+anything = input()
+print("Thanks for telling me", anything)
