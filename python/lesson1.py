@@ -60,3 +60,13 @@ Name = "Steve"
 print(Name)
 Name = Name + " Joe"
 print(Name)
+# Using math and rounding in varibales to get expected outcomes
+# The round command rounds the nubmer to 1 2 or 3 decimal points as defined
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = (miles * 1.61)
+kilometers_to_miles = (kilometers / 1.61)
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
