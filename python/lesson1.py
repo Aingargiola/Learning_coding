@@ -82,3 +82,6 @@ color = input("Tell me a color\n")
 print("Is", color, "your favorite color")
 # You can prints multiple strings or variable in one line 
 print(anything + " wow " + color)
+print(color * 3)
+# convert a number into a string with
+str(7)
