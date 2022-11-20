@@ -85,3 +85,42 @@ print(anything + " wow " + color)
 print(color * 3)
 # convert a number into a string with
 str(7)
+
+# a double == compares to things together in python
+print(2 == 2)
+print(1 == 2)
+# One will print out True and the other will print out False since its comparing the values
+# != is not equal to like show below
+print(2 != 3)
+# Could use > or < or >= or <= also to compare variables or numbers 
+print(2 >= 1)
+# example with using variable
+dogs = 3
+print(dogs >= 1)
+# Basic if or else statment in python
+weather = input("Is the weather good or bad\n")
+if weather == "good":
+    print("lets go for a walk")
+else:
+    print("lets stay inside")
+
+income = float(input("Enter the annual income: "))
+# Using the round function in an if or else stament to round total
+if income < 85528:
+	tax = income * 0.18 - 556.02
+else:
+	tax = (income - 85528) * 0.32 + 14839.02
+
+if tax < 0.0:
+	tax = 0.0
+# We could change the zero on the end of round to go out more decimals
+tax = round(tax, 0)
+print("The tax is:", tax)
+# While loop in python  a loop will keep running till the while is met you can have an infiinte loop
+counter = 5
+while counter != 0:
+    print("Inside the loop.", counter)
+    counter -= 1
+print("Outside the loop.", counter)
+# The loop here counts down till the counter does not equal 0 and counts down by 1 each time it runs
+
