@@ -123,4 +123,9 @@ while counter != 0:
     counter -= 1
 print("Outside the loop.", counter)
 # The loop here counts down till the counter does not equal 0 and counts down by 1 each time it runs
+# Lets learn about a for loop 
+i = 0
+for i in range(2, 10):
+    print("hello")
+    pass
 
