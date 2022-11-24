@@ -38,3 +38,27 @@ print(my_list)
 
 my_list.reverse()
 print(my_list)
+
+del my_list[1]
+print(my_list)
+#print how many variables are in list with len command
+print(len(my_list))
+# This for loop will print the longest number in the list
+largest = my_list[0]
+for i in my_list:
+    if i > largest:
+        largest = i
+print(largest)
+
+
+# functions in python 
+def addition():
+    print("Enter a value")
+    a = int(input())
+    print("Enter another value")
+    b = int(input())
+  
+    print(a + b)
+addition()
+
+# I can call this addition function anywhere any my code after this point and it will run lines 55 through 61
