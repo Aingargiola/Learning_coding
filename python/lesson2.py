@@ -44,6 +44,7 @@ print(my_list)
 #print how many variables are in list with len command
 print(len(my_list))
 # This for loop will print the longest number in the list
+# my_list = [10, 1, 8, 3, 5]
 largest = my_list[0]
 for i in my_list:
     if i > largest:
@@ -62,3 +63,32 @@ def addition():
 addition()
 
 # I can call this addition function anywhere any my code after this point and it will run lines 55 through 61
+def name(first, last):
+    print("Hello my name is", first, last)
+
+name("anthony", "ingargiola")
+name("Micheal", "Scott")
+name(first = input("Enter first name "),last = input("Enter last name "))
+# using a variable inside of a function
+
+def my_function():
+    var = 2
+    print("Do I know that variable?", var)
+
+
+var = 1
+my_function()
+print(var)
+
+# global names the variable any where on the script not just in the single funciton 
+def my_functions():
+    global var
+    var = 2
+    print("Do I know that variable?", var)
+
+
+var = 1
+my_functions()
+print(var)
+
+
