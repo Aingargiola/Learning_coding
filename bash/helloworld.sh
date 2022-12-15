@@ -34,3 +34,12 @@ mkdir "directory1" "directory2" "directory3" "Directory4"
 
 
 
+doc=create.txt
+
+  for d in docucment
+ do  if cat $doc
+        then echo "$doc exist"
+    else
+        touch $doc
+    fi
+done

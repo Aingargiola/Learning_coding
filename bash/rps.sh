@@ -6,7 +6,7 @@ echo "Enter (R)ock, (P)aper, (S)cissor"
 read user
 choice=(R P S)
 computer=${choice[$((RANDOM%3))]}
- echo $computer
+ echo $computer "is computers choice"
 
 if [[ $user = R && $computer = P ]]
     then echo "Sorry you lose";
