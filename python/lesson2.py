@@ -90,5 +90,9 @@ def my_functions():
 var = 1
 my_functions()
 print(var)
+# Using math in function with variable
 
+def savings(earnings,):
+    return earnings * .2
 
+print("You should save", savings(50000))

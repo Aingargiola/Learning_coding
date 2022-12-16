@@ -28,18 +28,20 @@
 
 
 #!/bin/bash
-mkdir "directory1" "directory2" "directory3" "Directory4"
-    director=("directory1" "directory2" "directory3" "Directory4")
- touch ${director[3]} > file.txt
+# mkdir "directory1" "directory2" "directory3" "Directory4"
+#     director=("directory1" "directory2" "directory3" "Directory4")
+#  touch ${director[3]} > file.txt
 
 
 
 doc=create.txt
 
-  for d in docucment
- do  if cat $doc
+  
+   if   cat $doc 
         then echo "$doc exist"
     else
         touch $doc
     fi
-done
+
+
+
