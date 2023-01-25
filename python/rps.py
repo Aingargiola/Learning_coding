@@ -3,7 +3,7 @@ while True:
     user_action = input("Enter a choice (rock, paper, scissors): ")
     possible_actions = ["rock", "paper", "scissors"]
     computer_action = random.choice(possible_actions)
-    print(computer_action)
+    print("computer chose "+computer_action)
     if user_action == computer_action:
         print(f"\nIt is a tie both players picked {user_action}")
     elif user_action == "rock":
