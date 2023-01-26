@@ -10,8 +10,10 @@
 
 echo "enter a file"
 ls
-read dir
-cd $dir
-echo "enter permission number"
+read file
+
+echo "enter permission number 777 or 770"
 read Num
-chmod $Num $dir
+chmod $Num $file
+echo "You granted permsion to $file"
+ls -l $file
