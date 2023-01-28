@@ -53,9 +53,10 @@ while True:
             troll = input("\nDo you shoot the troll or try to run\n")
             if troll == "shoot":
                 arrow = random.randint(1, 10)
-                print("You try and shoot the hulk with 70 percent accuracy")
+                print("You try and shoot the hulk with 70% accuracy")
                 if arrow <= 7:
                     print("You shoot the hulk and escape the castle")
+                    quit()
                 else: print("You try and shoot the hulk and miss and the troll hulksmashes you.")
             else: print("You try and run from the hulk but he catches you and throws you in the dungeon.")
         else:  print("You head to the right and find a staircase and start to asscend you get to the top and find the princess.\n")  
