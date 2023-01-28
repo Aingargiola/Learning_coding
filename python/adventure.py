@@ -73,7 +73,7 @@ while True:
             if dragon == "c":
                 print("You charm the dragon and ride it to safety")
                 quit()   
-            else: print("The dragon is the child of Daenerys Targaryen and she ask you to bend the knee but you though Tirion should lead the seven kingdoms so she burns you alive")
+            else: print("The dragon is the child of Daenerys Targaryen and she ask you to bend the knee but you believe Tirion should lead the seven kingdoms so she burns you alive")
             quit()
         else: print("You turn back and get lost and find a creature guarding a ring?")
         print("The creatures call the ring my prescious")
