@@ -1,4 +1,7 @@
+#This is just a fun text based adventure game that can be played in side the terminal still updating and expading this to make it more indpeth and more intresting uses random number genreation
+#to decide if certain events are affective or not
 # Setup
+
 import random
 yes_no = ["yes", "no"]
 directions = ["left", "right", "forward", "backward"]
@@ -24,7 +27,7 @@ while response not in yes_no:
 # Next part of game
 response = ""
 while True:
-    print("To your left, you see a bear.")
+    print("To your left, you see a witch.")
     print("To your right, there is more forest.")
     print("There is a rock wall directly in front of you.")
     print("Behind you is the forest exit.\n")
