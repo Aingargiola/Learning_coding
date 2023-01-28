@@ -30,20 +30,37 @@ while True:
     print("Behind you is the forest exit.\n")
     response = input("What direction do you move?\nleft/right/forward/backward\n")
     if response == "left":
-        print("You encounter a bear what do you do?")
-        fight = input("fight the bear y/n\n")
+        print("You encounter a witch in a house made of candy what do you do?")
+        fight = input("fight the witch y/n\n")
         if  fight == "y":
-            print("Diced rolled to see if you beat bear")
+            print("10 sided dice rolled to see if you beat witch")
             number = random.randint(1, 10)
             if number >= 5:
-                print(f"you have defeated the bear with a roll of {number} and escaped the forest")
+                print(f"you have defeated the witch with a roll of {number} and escaped the forest with a friendly cat name binx")
                 response = ""
-            else: print("You rolled less than 5 the bear ate you") 
+            else: print("You rolled less than 5 the witch and thorws you in the oven") 
             quit()
         else: print("you ran away")
         
     elif response == "right":
-        print("You head deeper into the forest.\n")
+        print("You head deeper into the forest.  You find a castle in front of you.\n")
+        castle = input("You enter the castle do you go left or right?\n")
+        if castle == "left":
+            print("You fall through a trap door and find a troll. You find a bow and arrows next to you.")
+            troll = input("\nDo you shoot the troll or try to run\n")
+            if troll == "shoot":
+                arrow = random.randint(1, 10)
+                print("You try and shoot the troll with 70 percent accuracy")
+                if arrow <= 7:
+                    print("You shoot the troll and escape the castle")
+                else: print("You try and shoot the troll and miss and the troll hulksmashes you.")
+            else: print("You try and run from the troll but he catches you and throws you in the dungeon.")
+        else:  print("You head to the right and find a staircase and start to asscend you get to the top and find the princess.\n")  
+        princess = input("Do you try and save her?y/n\n")
+        if princess == "y":
+                print("You save the princess and escape the castle")
+        else: print("The princess shoots you for being an asshole")
+        quit()
     elif response == "forward":
         wall = input("You find a wall you can scale do you scale it?.y/n\n")
         if wall == "y":
@@ -54,10 +71,25 @@ while True:
                 quit()   
             else: print("The dragon catches you and eats you")
             quit()
+        else: print("You turn back and get lost and find a creature guarding a ring?")
+        print("The creatures call the ring my prescious")
+        ring = input("Do you take the ring from him?y/n\n")
+        if ring == "y":
+            print("You take a chance to steal the ring.")
+            rings = random.randint(1, 10)
+            if rings >= 5:
+                print(f"Your rolled a {rings}")
+                print("You take your chance to steal the ring and grab it and harness its power to escape")
+            else: print(f"You rolled a {rings}.  The creature catches you and throw you into a pit to never been seen again")
+        else: print("The creatures is greatful you did not try and steal his prescious and leads you to the exit") 
+        
         response = "" 
     elif response == "backward":
-        print("You leave the forest. Goodbye, " + name + ".")
-        quit()
+            print("A magical door to the forest slams behind you and now you are stuck.")
+            cave = input("Do you got to the cave or the tower?\n")
+            if cave == "cave":
+                print("You find tony stark stuck in cave building a suit and help him escape and you escape also")
+            else: print("You find the true boogeyman John Wick and he kills all the creatures of the forest and you become ruler of the forest as he leaves to avenge the death of his dog")
     else:
         print("I didn't understand that.\n")
     play_again = input("Play again? (y/n): ")
