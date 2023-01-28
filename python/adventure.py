@@ -50,7 +50,7 @@ while True:
         castle = input("You enter the castle do you go left or right?\n")
         if castle == "left":
             print("You fall through a trap door and find a hulk. You find a bow and arrows next to you.")
-            troll = input("\nDo you shoot the troll or try to run\n")
+            troll = input("\nDo you shoot the troll or try to run.  shoot/run\n")
             if troll == "shoot":
                 arrow = random.randint(1, 10)
                 print("You try and shoot the hulk with 70% accuracy")
@@ -73,7 +73,7 @@ while True:
             if dragon == "c":
                 print("You charm the dragon and ride it to safety")
                 quit()   
-            else: print("The dragon catches you and eats you")
+            else: print("The dragon is the child of Daenerys Targaryen and she ask you to bend the knee but you though Tirion was the best charchter so she burns you alive")
             quit()
         else: print("You turn back and get lost and find a creature guarding a ring?")
         print("The creatures call the ring my prescious")
