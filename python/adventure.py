@@ -46,15 +46,15 @@ while True:
         print("You head deeper into the forest.  You find a castle in front of you.\n")
         castle = input("You enter the castle do you go left or right?\n")
         if castle == "left":
-            print("You fall through a trap door and find a troll. You find a bow and arrows next to you.")
+            print("You fall through a trap door and find a hulk. You find a bow and arrows next to you.")
             troll = input("\nDo you shoot the troll or try to run\n")
             if troll == "shoot":
                 arrow = random.randint(1, 10)
-                print("You try and shoot the troll with 70 percent accuracy")
+                print("You try and shoot the hulk with 70 percent accuracy")
                 if arrow <= 7:
-                    print("You shoot the troll and escape the castle")
-                else: print("You try and shoot the troll and miss and the troll hulksmashes you.")
-            else: print("You try and run from the troll but he catches you and throws you in the dungeon.")
+                    print("You shoot the hulk and escape the castle")
+                else: print("You try and shoot the hulk and miss and the troll hulksmashes you.")
+            else: print("You try and run from the hulk but he catches you and throws you in the dungeon.")
         else:  print("You head to the right and find a staircase and start to asscend you get to the top and find the princess.\n")  
         princess = input("Do you try and save her?y/n\n")
         if princess == "y":
@@ -67,7 +67,7 @@ while True:
             print("You scale the wall and find a dragon")
             dragon = input("Do you charm the dragon or run? c/r\n")
             if dragon == "c":
-                print("Your ride the dragon to safety")
+                print("You charm the dragon and ride it to safety")
                 quit()   
             else: print("The dragon catches you and eats you")
             quit()
