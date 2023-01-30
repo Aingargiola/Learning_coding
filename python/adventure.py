@@ -41,7 +41,7 @@ while True:
             if number >= 5:
                 print(f"you have defeated the witch with a roll of {number} and escaped the forest with a friendly cat name binx")
                 response = ""
-            else: print("You rolled less than 5 the witch and thorws you in the oven") 
+            else: print("You rolled less than 5 the witch and throws you in the oven") 
             quit()
         else: print("you ran away")
         
@@ -59,6 +59,7 @@ while True:
                     quit()
                 else: print("You try and shoot the hulk and miss and then you get hulksmashed.")
             else: print("You try and run from the hulk but he catches you and throws you in the dungeon.")
+            quit()
         else:  print("You head to the right and find a staircase and start to asscend you get to the top and find the princess.\n")  
         princess = input("Do you try and save her?y/n\n")
         if princess == "y":
@@ -66,7 +67,7 @@ while True:
         else: print("The princess shoots you for being an asshole")
         quit()
     elif response == "forward":
-        wall = input("You find a wall you can scale do you scale it?.y/n\n")
+        wall = input("You find a wall you can climb do you climb it?.y/n\n")
         if wall == "y":
             print("You scale the wall and find a dragon")
             dragon = input("Do you charm the dragon or run? c/r\n")
