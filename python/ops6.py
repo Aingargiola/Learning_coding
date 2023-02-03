@@ -26,6 +26,7 @@
 # An observation about the lab assignment, or related ‘Ah-hah!’ moment
 # How long you spent working on this assignment
 # © Code Fellows 2022
+# This will not run on windows needs to be mac or linux due to os being bash
 import subprocess
 import os
 computer = "whoami"

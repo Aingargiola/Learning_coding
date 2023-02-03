@@ -6,4 +6,9 @@
 # Test your code using the data we've provided for you.
 
 n = int(input("Enter a number between 1 and 1000\n"))
-print(n >= 100)
+if n > 100: 
+    print(f"{n} is greater than 100")
+elif n < 100:
+    print(f"{n} is less than 100")
+else: 
+    print(f"{n} is equal to {n}")
