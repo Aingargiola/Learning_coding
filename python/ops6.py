@@ -40,3 +40,4 @@ subprocess.run(network)
 print("Hardware")
 os.system(mac)
 #os.system(lsa)
+# Line 40 runs on mac while line 41 is to run on linux
