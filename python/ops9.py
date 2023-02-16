@@ -22,9 +22,9 @@
 
 # Create an if statement that includes pass to avoid errors.
 
-a = input("Enter a number ")
-b = input("Enter a number ")
-if a or b != int:
+a = int(input("Enter a number "))
+b = int(input("Enter a number "))
+if (a or b != int(a, b)):
     print("Not valid number")
 elif (a == b) and (b == a):
     print("The numbers are the same")
