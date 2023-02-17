@@ -1,8 +1,12 @@
 import psutil
 
-#file = open('cpu.txt', 'w')
+# file = open('cpu.txt', 'w')
 file2 = psutil.cpu_times()
 print(psutil.cpu_times()) 
 
 
-# c:/Users/ainga/OneDrive/Desktop/teaching-code/python/ops11.py > cpu.txt  This to output ot text file
+# c:/Users/ainga/OneDrive/Desktop/teaching-code/python/ops11.py > cpu.txt  
+# This to output ot text file
+
+#  pip install psutil 
+# May have to install exstension before starting
