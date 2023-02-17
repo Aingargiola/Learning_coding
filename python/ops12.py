@@ -33,7 +33,7 @@ elif b == "Head":
 elif b == "Patch":
     response = requests.patch('https://github.com/Aingargiola/Learning-github-')
 elif b == "Options":
-        response = requests.options('https://github.com/Aingargiola/Learning-github-')
+    response = requests.options('https://github.com/Aingargiola/Learning-github-')
 else:
     print("input error")
     quit()
