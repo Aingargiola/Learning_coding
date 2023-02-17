@@ -5,7 +5,7 @@
 #
 
 
-
+import os
 
 
 # Define Variables
@@ -18,19 +18,19 @@ line3 = "This is the last line of text for the file. \n"
 # Main
 
 
-# # Create a new file and add one line of text.
-# file1 = open("first_text_file.txt", "w")
-# file1.write(first_line)
-# file1.close()
+# Create a new file and add one line of text.
+file1 = open("first_text_file.txt", "w")
+file1.write(first_line)
+file1.close()
 
 
 # # Read the file before adding any new text.
-# file2 = open("first_text_file.txt", "r")
-# print()
-# print("Read the file before writing new text to it:")
-# print()
-# print(file2.read())
-# file2.close()
+file2 = open("first_text_file.txt", "r")
+print()
+print("Read the file before writing new text to it:")
+print()
+print(file2.read())
+file2.close()
 
 
 # Add three lines of text to the file.
@@ -46,8 +46,8 @@ fileadd.close()
 filefull = open("first_text_file.txt", "r")
 print()
 print("I have written to the file and am reading the entire contents:")
-print(filefull.read())
+print(filefull.readlines(1))
 filefull.close()
-
+os.remove("first_text_file.txt")
 
 # End
