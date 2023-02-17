@@ -36,6 +36,7 @@ elif b == "Options":
         response = requests.options('https://github.com/Aingargiola/Learning-github-')
 else:
     print("input error")
+    quit()
 anwser = input("Enter yes or no: ")
 if anwser == "yes":
     print(response)
