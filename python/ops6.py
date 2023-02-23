@@ -32,7 +32,7 @@ import os
 computer = "whoami"
 network = "ifconfig"
 lsa = "lshw -short"
-mac = "sysctl -A"
+mac = "sysctl -a"
 print("Who am I")
 os.system(computer)
 print("Network configurations")
@@ -40,4 +40,4 @@ subprocess.run(network)
 print("Hardware")
 os.system(mac)
 #os.system(lsa)
-# Line 40 runs on mac while line 41 is to run on linux
+# Line 41 runs on mac while line 42 is to run on linux
