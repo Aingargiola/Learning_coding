@@ -24,19 +24,19 @@ bobbie = input("enter a file: ")
 testdir = [bob, bobby, bobbie]
 ### Declare a function here
 def myfunc(self):
-    for (root, dirs, files) in os.walk(testdir, topdown=False):
+    for (root, dirs, files) in os.walk("testdir"):
     ### Add a print command here to print ==root==
         for names in files:
-         print(os.path(root, bob))
+         print(os.path(bob))
     ### Add a print command here to print ==dirs==
         for names in files:
-            print(os.path(dirs, bobby))
+            print(os.path(bobby))
     ### Add a print command here to print ==files==
         for names in files:
-            print(os.path(files, bobbie))
+            print(os.path(bobbie))
 
 # Main
 
 ### Pass the variable into the function here
-testdir.myfunc()
+myfunc(testdir)
 # End
