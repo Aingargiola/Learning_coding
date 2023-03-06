@@ -1,7 +1,7 @@
 #This is just a fun text based adventure game that can be played in side the terminal still updating and expading this to make it more indpeth and more intresting uses random number genreation
 #to decide if certain events are effective or not we added some familar charchters to the game to make it more fun and enjoyable
 # Setup
-
+import os
 import random
 yes_no = ["yes", "no"]
 directions = ["left", "right", "forward", "backward"]
@@ -95,6 +95,8 @@ while True:
             if cave == "cave":
                 print("You find tony stark stuck in cave building a suit and help him escape and you escape also")
             else: print("You find the true boogeyman John Wick and he kills all the creatures of the forest and you become ruler of the forest as he leaves to avenge the death of his dog")
+            os.system("open \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
+            # Windows os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
     else:
         print("I didn't understand that.\n")
     play_again = input("Play again? (y/n): ")
