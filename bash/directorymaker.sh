@@ -9,7 +9,13 @@ mkdir dir2
 mkdir dir3
 mkdir dir4
 folders=("dir1" "dir2" "dir3" "dir4")
+x=2
+while [ $x = 2 ]
+do
 touch ${folders[0]}/text.txt
 touch ${folders[1]}/text.txt
 touch ${folders[2]}/text.txt
 touch ${folders[3]}/text.txt
+break
+done
+echo "text files created"
