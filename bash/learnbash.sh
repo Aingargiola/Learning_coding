@@ -80,3 +80,9 @@ add
 # echo ${names[@]}
 # echo ${names[2]}
 # echo ${names[@]: 1:2}
+
+until [ $x = 6 ]
+do
+    echo "x is $x"
+    $x + 1
+done
