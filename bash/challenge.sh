@@ -32,3 +32,9 @@ function num(){
         fi
 }
 num
+
+now=$(date +"%m-%d-%Y-%H.%M.%S")
+
+echo $now
+
+log show --last 1m >> logs$now.txt
