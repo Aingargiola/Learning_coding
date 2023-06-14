@@ -1,4 +1,5 @@
-# Write a program that works out whether if a given number is an odd or even number
+# Write a program that works out whether if a given number is an 
+# odd or even number
 # 🚨 Don't change the code below 👇
 number = int(input("Which number do you want to check? "))
 # 🚨 Don't change the code above 👆
@@ -15,9 +16,11 @@ number = int(input("Which number do you want to check? "))
 
 
 
-# Create a program using maths and f-Strings that tells us how many days, weeks, months we have left if we live until 90 years old.
+# Create a program using maths and f-Strings that tells us how many 
+# days, weeks, months we have left if we live until 90 years old.
 
-# It will take your current age as the input and output a message with our time left in this format:
+# It will take your current age as the input and output a message 
+# with our time left in this format:
 
 # You have x days, y weeks, and z months left.
 
