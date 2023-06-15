@@ -7,6 +7,10 @@ number = int(input("Which number do you want to check? "))
 #Write your code below this line 👇
 
 
+if ( number % 2 ) == 0:
+    print("This is an even number")
+else:
+    print("this is an odd number")
 
 
 
@@ -33,7 +37,12 @@ age = int(input("What is your current age? "))
 
 #Write your code below this line 👇
 
+x = (( 90 * 365 ) - ( age * 365 ))
+y = ((90 * 52) - (age * 52))
+z = ((90 * 12) - (age * 12))
 
+
+print(f"You have {x} days, {y} weeks, and {z} months left.")
 
 
 
