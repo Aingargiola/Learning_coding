@@ -7,7 +7,7 @@
 # or LOWER 
 # until the number is guessed correctly and the program ENDS.
 # Remeber to import the random function
-#Bouns objective can you put it into a loop to make the game end after 3 turns?
+#Bonus objective can you put it into a loop to make the game end after 3 turns?
 
 import random
 turns = 3
@@ -32,4 +32,20 @@ def  guess(x):
             
 guess(10)
 
-
+number = random.randint(1, 20)
+attempts = 0
+guess = 0
+while guess != number:
+        guess = int(input(f"Enter a number between 1 and 20:" ))
+        if guess > number:
+            print(f"Your guess is to high ")
+            attempts = attempts + 1
+            
+        elif guess < number:
+            print(f"Your guess is low ")
+            attempts = attempts + 1
+        elif guess == number:
+            print("your correct")
+            attempts = attempts + 1
+            break
+print(f"It took you {attempts} attempts")
