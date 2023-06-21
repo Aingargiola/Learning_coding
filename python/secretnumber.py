@@ -21,5 +21,6 @@ magic_number = (random.randint(1, 10))
 #print(magic_number)
 while guess != magic_number:
     print("You got the wrong number guess again!")
+    print("Your stuck in my loop!")
     guess = int(input("Enter another number between 1 and 10: "))
 print("We have the same number you can leave the while loop")
