@@ -26,17 +26,14 @@ def  guess(x):
             print("your correct")
             break
         turns = turns - 1
-        
-        
-           
-            
-guess(10)
+    print("you ran out of turns")    
+guess(20)
 
 number = random.randint(1, 20)
 attempts = 0
 guess = 0
 while guess != number:
-        guess = int(input(f"Enter a number between 1 and 20:" ))
+        guess = int(input(f"Enter a number between 1 and 20:  " ))
         if guess > number:
             print(f"Your guess is to high ")
             attempts = attempts + 1
