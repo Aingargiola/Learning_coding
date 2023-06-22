@@ -28,10 +28,7 @@ while response not in yes_no:
 # Next part of game
 response = ""
 while True:
-    print("To your left, you see a witch.")
-    print("To your right, there is more forest.")
-    print("There is a rock wall directly in front of you.")
-    print("Behind you is the forest exit.\n")
+    print("You can head any direction please choose:")
     response = input("What direction do you move?\nleft/right/forward/backward\n")
     if response == "left":
         print("You encounter a witch in a house made of candy what do you do?")
