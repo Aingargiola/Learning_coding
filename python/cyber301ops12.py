@@ -1,5 +1,6 @@
 #This is just a fun text based adventure game that can be played in side the terminal still updating and expading this to make it more indpeth and more intresting uses random number genreation
 #to decide if certain events are effective or not we added some familar charchters to the game to make it more fun and enjoyable
+# Your challenge tonight is to analyze the code and explain how it works and what is going on
 # Setup
 import os
 import random
