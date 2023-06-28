@@ -8,6 +8,9 @@
 
 #   And if the number is divisible by both 3 and 5 e.g. 15 then instead of the number it should print "FizzBuzz"
 
+# You will need to use a for loop to write this:
+
+
 #Write your code below this row 👇
 
 for number in range(1, 101):
