@@ -1,4 +1,8 @@
 # #!/usr/bin/python
+
+# Do not run this code the point of this ops Challenges is to explain what the script is doing here this is a malware script
+
+
 # import os
 # import datetime
 

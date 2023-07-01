@@ -1,7 +1,6 @@
 #This is just a fun text based adventure game that can be played in side the terminal still updating and expading this to make it more indpeth and more intresting uses random number genreation
 #to decide if certain events are effective or not we added some familar charchters to the game to make it more fun and enjoyable
-# Your challenge tonight is to analyze the code and explain how it works and what is going on
-# Setup
+# Your challenge tonight is to write a basic adventure game using some of the  code provide below and using if/elif statments
 import os
 import random
 yes_no = ["yes", "no"]
@@ -30,6 +29,7 @@ response = ""
 while True:
     print("You can head any direction please choose:")
     response = input("What direction do you move?\nleft/right/forward/backward\n")
+    # Start you Code below this line use and if/elif statment to take you an adventure in all directions
     if response == "left":
         print("You encounter a witch in a house made of candy what do you do?")
         fight = input("fight the witch y/n\n")
@@ -99,6 +99,8 @@ while True:
             os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
     else:
         print("I didn't understand that.\n")
+
+        #Write you code above this line
     play_again = input("Play again? (y/n): ")
     if play_again.lower() != "y":
         break
