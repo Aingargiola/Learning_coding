@@ -8,9 +8,9 @@ d = "Cat"
 e = int(14)
 # print the length of your string.
 print(len(a))
-# print the the index value of the 4th character in your string.
 
-# create a new variable called savvy, and assign it the string with this phrase "Learning Data Analytics and Python is Awesome!"
+
+# create a new variable called savvy, and assign it the string with this phrase "Learning Python is Awesome!"
 savvy = "Learning Data Analytics and Python is Awesome!"
 # return a range of characters that slices the above string from the beginning of "ing" up to before "and"
 print(savvy[5:18])
