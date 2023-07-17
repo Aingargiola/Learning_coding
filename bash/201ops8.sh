@@ -6,7 +6,7 @@
 x=1
 while [ $x = 1 ]
 do
-    ping  -c 1 192.168.1.1
+    ping 192.168.0.1
 done
 
 
