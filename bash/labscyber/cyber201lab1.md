@@ -10,13 +10,13 @@ paginate: true
 # Overview
 Backup Your System
 
-Backing up your computer configuration and/or data is an essential part of establishing a working “baseline,” or known good configuration.
-Your client or employer’s data is sacred. Make a habit of proactively protecting that data and mitigating risks.
+- Backing up your computer configuration and/or data is an essential part of establishing a working “baseline,” or known good configuration.
+- Your client or employer’s data is sacred. Make a habit of proactively protecting that data and mitigating risks.
 
 ---
 # Objectives
-Create a backup .ova of Windows 10 and demonstrate .ova import.
-In Windows 10, create a system restore point and perform a restore operation.
+- Create a backup .ova of Windows 10 and demonstrate .ova import.
+- In Windows 10, create a system restore point and perform a restore operation.
 
 
 ---
