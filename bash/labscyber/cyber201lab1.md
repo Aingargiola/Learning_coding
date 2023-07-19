@@ -27,7 +27,7 @@ https://www.maketecheasier.com/import-export-ova-files-in-VirtualBox/
 # Part 1: Backup & Restore a Windows 10 VM with VirtualBox
 1. By now, you’re familiar with installing Ubuntu Linux and Windows 10 from scratch using their source .iso disk images. Moving forward, we usually won’t be installing things from .iso; there are much more efficient methods such as exporting/importing VirtualBox’s .ova image file.
 2. If you have not done so yet in Ops 102, create an .ova of your Windows 10 VM.
-Demonstrate in your submission today how you’ll be sorting .ova image files and that you have enough storage. At minimum, 120 GB of space on a second disk is required, and .ova files should be organized and named with their class code or purpose.
+- Demonstrate in your submission today how you’ll be sorting .ova image files and that you have enough storage. At minimum, 120 GB of space on a second disk is required, and .ova files should be organized and named with their class code or purpose.
 3. Staying organized is vital to succeed in Ops, where you’re handling multiple computers and parts at any given time.
 4. Create a file “testfile.txt” on the desktop within the Windows 10 VM.
 5. Delete the VM (and all associated data) using VirtualBox Manager.
