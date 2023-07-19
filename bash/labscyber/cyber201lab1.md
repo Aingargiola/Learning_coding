@@ -64,9 +64,7 @@ Demonstrate in your submission today how you’ll be sorting .ova image files an
 2. How will you restore your Ubuntu system if something with the OS goes wrong?
 3. How will you restore your Windows 10 VM if something with its OS goes wrong?
 4. How are you documenting the following lab computer information: 
- Network configuration
----
-Passwords
----
-Installed software
+- Network configuration
+- Passwords
+- Installed software
 
