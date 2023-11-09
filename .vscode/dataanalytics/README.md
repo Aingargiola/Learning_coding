@@ -1,3 +1,0 @@
-# DataAnalyticBoot
-
-# Learning data analytics
