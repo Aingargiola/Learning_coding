@@ -16,7 +16,7 @@ add
 
 function div(){
   num4=$(( $num3 * $num1 ))
-  echo " The new total is $num4"
+  echo "The new total is $num4"
 }
 div
 
