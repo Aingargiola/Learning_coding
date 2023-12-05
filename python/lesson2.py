@@ -64,12 +64,12 @@
 
 
 # I can call this addition function anywhere any my code after this point and it will run lines 55 through 61
-def name(first, last):
-    print("Hello my name is", first, last)
+# def name(first, last):
+#     print("Hello my name is", first, last)
 
-name("anthony", "ingargiola")
-name("Micheal", "Scott")
-name(first = input("Enter first name "),last = input("Enter last name "))
+# name("anthony", "ingargiola")
+# name("Micheal", "Scott")
+# name(first = input("Enter first name "),last = input("Enter last name "))
 # using a variable inside of a function
 
 # def my_function():

@@ -100,11 +100,11 @@
 # dogs = .5
 # print(dogs >= 1)
 # # Basic if or else statment in python
-weather = input("Is the weather good or bad\n")
-if weather == "good":
-    print("lets go for a walk")
-else:
-    print("lets stay inside")
+# weather = input("Is the weather good or bad\n")
+# if weather == "good":
+#     print("lets go for a walk")
+# else:
+#     print("lets stay inside")
 
 # income = float(input("Enter the annual income: "))
 # # Using the round function in an if or else stament to round total
@@ -145,5 +145,5 @@ counter = 10
 # else:
 #       print("Your Number is to low")
 # pass
-import math
-dir(math)
+# import math
+# dir(math)
