@@ -5,5 +5,5 @@ x=1
 until [ $x = 10 ]
 do
     echo "x is $x"
-    $x + 1
+    ((x++))
 done
