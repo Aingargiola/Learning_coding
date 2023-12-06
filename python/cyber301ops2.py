@@ -31,5 +31,5 @@ elif (a == b) and (b == a):
 elif (a > b):
     print("A is greater than B")
 elif ( a < b ):
-    print("A is less than B")
+    print(f"{a} is less than {b}")
 
