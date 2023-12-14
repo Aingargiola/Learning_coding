@@ -13,7 +13,7 @@ print(len(a))
 # create a new variable called savvy, and assign it the string with this phrase "Learning Python is Awesome!"
 savvy = "Learning Data Analytics and Python is Awesome!"
 # return a range of characters that slices the above string from the beginning of "ing" up to before "and"
-print(savvy[5:18])
+print(savvy[5:15])
 # Replace "Awesome" with "great" in the string
 new_savvy = savvy.replace("Awesome", "great")
 print(new_savvy)
