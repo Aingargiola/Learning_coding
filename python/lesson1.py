@@ -132,11 +132,11 @@
 #     pass
 
 
-# while True:
-#     word = input("You're stuck in an infinite loop!\nEnter the secret word to leave the loop: ")
-#     if word == "chupacabra":
-#         break
-# print("You've successfully left the loop!")
+while True:
+    word = input("You're stuck in an infinite loop!\nEnter the secret word to leave the loop: ")
+    if word == "chupacabra":
+        break
+print("You've successfully left the loop!")
 # This is a loop with an if or else statement
 counter = 10
 # while counter > 5:

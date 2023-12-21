@@ -87,7 +87,8 @@ while (Player_health > 0):
                 break
             else:
                 print("you have lost to brock")
-                break
+                print("You journey has eneded")
+                quit()
         elif starter=="Squirtle":
             attack=input("Do you want to attack with tackle or Bubble?")
             if (Player_health > 0 and onix_health > 0):
@@ -118,28 +119,31 @@ while (Player_health > 0):
                 break
             else:
                 print("you have lost to brock")
-                break
+                
         else:
             print("Pokemon not found")
             break
+
     star_health=20
     Player_health=20
     slash=3
     water_gun=random.randint(2,6)
     
-    while(Player_health > 0):
-        print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
-        print("Misty sends out Starmie")
+while(Player_health > 0):
+    print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
+    print("Misty sends out Starmie")
         
-        if starter=="Charmander":
+    if starter=="Charmander":
             print("Your pokemon has gained 10hp and learned slash")
             attack=input("Do you want to attack with slash or ember?")
+            star_health=int(20)
+            Player_health=int(20)
             if (Player_health > 0 and star_health > 0):
                 if attack == "ember":
                     print("You deal " + ember_level + " to the starmie")
                     star_health=(star_health - ember)
                     star_hp=str(star_health)
-                    print("onix new health total is "+ star_hp)
+                    print("Starmie new health total is "+ star_hp)
                     print("onix attacks back")
                     enemy_attack=random.choice(onix_attack)
                     Player_health=(Player_health - enemy_attack)
@@ -164,7 +168,7 @@ while (Player_health > 0):
                 print("you have lost to brock")
                 break
                 
-        elif starter=="Bulbasur":
+    elif starter=="Bulbasur":
             print("Your pokemon has gained 10hp and learned slash")
             attack=input("Do you want to attack with slash or Vinewhip?")
             if (Player_health > 0 and onix_health > 0):
@@ -198,7 +202,7 @@ while (Player_health > 0):
             else:
                 print("you have lost to brock")
                 break
-        elif starter=="Squirtle":
+    elif starter=="Squirtle":
             print("Your pokemon has gained 10hp and learned slash")
             attack=input("Do you want to attack with slash or Bubble?")
             if (Player_health > 0 and onix_health > 0):
@@ -230,7 +234,7 @@ while (Player_health > 0):
             else:
                 print("you have lost to brock")
                 break
-        else:
+    else:
             print("Pokemon not found")
             break
 
