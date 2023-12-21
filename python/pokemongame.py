@@ -119,19 +119,29 @@ while (Player_health > 0):
                 break
             else:
                 print("you have lost to brock")
+<<<<<<< HEAD
                 
+=======
+                quit()
+>>>>>>> 05212f926b278831a62cbd8f02401e0aa85ba6d2
         else:
             print("Pokemon not found")
             break
 
     star_health=20
-    Player_health=20
     slash=3
     water_gun=random.randint(2,6)
     
+<<<<<<< HEAD
 while(Player_health > 0):
     print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
     print("Misty sends out Starmie")
+=======
+    while(Player_health > 0):
+        Player_health=20
+        print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
+        print("Misty sends out Starmie")
+>>>>>>> 05212f926b278831a62cbd8f02401e0aa85ba6d2
         
     if starter=="Charmander":
             print("Your pokemon has gained 10hp and learned slash")

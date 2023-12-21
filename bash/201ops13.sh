@@ -24,7 +24,7 @@ function validation() {
     then
         echo "Your number is valid"
     elif
-        echo "Not Valid"
+        echo "Not Valid enter new number"
     then
         validation
     fi
