@@ -48,8 +48,9 @@ while (Player_health > 0):
                     Char_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
                     print("onix attacks with " + enemy_last_attack + " your new health is " + Char_hp)
-            elif (onix_health < 0):
+            elif (onix_health <= 0):
                 print("You have beaten brock")
+                badge=1
                 break
             else:
                 print("you have lost to brock")
@@ -82,7 +83,7 @@ while (Player_health > 0):
                     print("onix attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
 
             
-            elif (onix_health < 0):
+            elif (onix_health <= 0):
                 print("You have beaten brock")
                 break
             else:
