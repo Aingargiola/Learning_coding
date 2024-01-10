@@ -39,7 +39,22 @@ else:
     quit()
 anwser = input("Enter yes or no: ")
 if anwser == "yes":
-    print(b)
     print(response)
 else:
     print("cancelling")
+if b == "Post":
+    print("Site not found")
+elif b == "Get":
+    print("Request has succedded")
+elif b == "Put":
+    print("This request is Frobidden")
+elif b == "Delete":
+    print("This request is Forbidden")
+elif b == "Head":
+    print("Request has Succedded")
+elif b == "Patch":
+    print("Request is forbidden")
+elif b == "Options":
+    print("Site not found")
+else:
+    print("Bad Request")
