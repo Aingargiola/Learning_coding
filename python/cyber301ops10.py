@@ -39,6 +39,7 @@ else:
     quit()
 anwser = input("Enter yes or no: ")
 if anwser == "yes":
+    print(b)
     print(response)
 else:
     print("cancelling")
