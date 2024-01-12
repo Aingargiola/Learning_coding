@@ -29,20 +29,20 @@ def  guess(x):
     print("you ran out of turns")    
 guess(20)
 
-number = random.randint(1, 20)
-attempts = 0
-guess = 0
-while guess != number:
-        guess = int(input(f"Enter a number between 1 and 20:  " ))
-        if guess > number:
-            print(f"Your guess is to high ")
-            attempts = attempts + 1
+# number = random.randint(1, 20)
+# attempts = 0
+# guess = 0
+# while guess != number:
+#         guess = int(input(f"Enter a number between 1 and 20:  " ))
+#         if guess > number:
+#             print(f"Your guess is to high ")
+#             attempts = attempts + 1
             
-        elif guess < number:
-            print(f"Your guess is low ")
-            attempts = attempts + 1
-        elif guess == number:
-            print("your correct")
-            attempts = attempts + 1
-            break
-print(f"It took you {attempts} attempts")
+#         elif guess < number:
+#             print(f"Your guess is low ")
+#             attempts = attempts + 1
+#         elif guess == number:
+#             print("your correct")
+#             attempts = attempts + 1
+#             break
+# print(f"It took you {attempts} attempts")
