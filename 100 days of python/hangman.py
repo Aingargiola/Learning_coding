@@ -36,7 +36,7 @@ while not end_of_game:
             print(f"The word was {chosen_word}")
             print(f"It took you {total_guess} tries")
             
-        elif missed_guess == 3:
+        elif missed_guess == 5:
             end_of_game = True
             print("Sorry you lost")
             print(f"The word was {chosen_word}")
