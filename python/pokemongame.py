@@ -10,7 +10,7 @@ Player_health=10
 
 while (Player_health > 0):
     print("You have made it to your first gym trainer Brock.  He is a strong trainer that uses onix.")
-    
+    badge=0
     tackle=2
     rock_throw=random.randint(1,3)
     ember=random.randint(1,5)
@@ -50,7 +50,8 @@ while (Player_health > 0):
                     print("onix attacks with " + enemy_last_attack + " your new health is " + Char_hp)
             elif (onix_health <= 0):
                 print("You have beaten brock")
-                badge=1
+                badge= badge + 1
+                
                 break
             else:
                 print("you have lost to brock")
@@ -85,6 +86,7 @@ while (Player_health > 0):
             
             elif (onix_health <= 0):
                 print("You have beaten brock")
+                badge= badge + 1
                 break
             else:
                 print("you have lost to brock")
@@ -116,6 +118,7 @@ while (Player_health > 0):
                     print("onix attacks with " + enemy_last_attack + " your new health is " + Sqir_hp)
             elif (onix_health < 0):
                 print("You have beaten brock")
+                badge= badge + 1
                 break
             else:
                 print("you have lost to brock")
