@@ -24,8 +24,9 @@ while (Player_health > 0):
     Bubble_level=str(Bubble)
     while (Player_health > 0):
         if starter=="Charmander":
-            attack=input("Do you want to attack with tackle or ember?")
+            # attack=input("Do you want to attack with tackle or ember?")
             if (Player_health > 0 and onix_health > 0):
+                attack=input("Do you want to attack with tackle or ember?")
                 if attack == "ember":
                     print("You deal " + ember_level + " to the onix")
                     onix_health=(onix_health - ember)
@@ -58,8 +59,9 @@ while (Player_health > 0):
                 break
                 
         elif starter=="Bulbasur":
-            attack=input("Do you want to attack with tackle or Vinewhip?")
+            # attack=input("Do you want to attack with tackle or Vinewhip?")
             if (Player_health > 0 and onix_health > 0):
+                attack=input("Do you want to attack with tackle or Vinewhip?")
                 if attack == "Vinewhip":
                     print("You deal " + vine_level + " to the onix")
                     onix_health=(onix_health - vine_whip)
@@ -92,8 +94,9 @@ while (Player_health > 0):
                 print("you have lost to brock")
                 quit
         elif starter=="Squirtle":
-            attack=input("Do you want to attack with tackle or Bubble?")
+            # attack=input("Do you want to attack with tackle or Bubble?")
             if (Player_health > 0 and onix_health > 0):
+                attack=input("Do you want to attack with tackle or Bubble?")
                 if attack == "Bubble":
                     print("You attack with bubble and deal " + Bubble_level + " damage to the onix")
                     onix_health=(onix_health - Bubble)
@@ -130,42 +133,46 @@ while (Player_health > 0):
     Player_health=20
     slash=3
     water_gun=random.randint(2,6)
+    print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
+    print("Misty sends out Starmie")
     
     while(Player_health > 0):
-        print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
-        print("Misty sends out Starmie")
+        # print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
+        # print("Misty sends out Starmie")
         
         if starter=="Charmander":
             print("Your pokemon has gained 10hp and learned slash")
-            attack=input("Do you want to attack with slash or ember?")
+            # attack=input("Do you want to attack with slash or ember?")
             if (Player_health > 0 and star_health > 0):
+                attack=input("Do you want to attack with slash or ember?")
                 if attack == "ember":
                     print("You deal " + ember_level + " to the starmie")
                     star_health=(star_health - ember)
                     star_hp=str(star_health)
-                    print("onix new health total is "+ star_hp)
-                    print("onix attacks back")
-                    enemy_attack=random.choice(onix_attack)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=(water_gun + 2)
                     Player_health=(Player_health - enemy_attack)
                     Char_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with " + enemy_last_attack + " your new health is " + Char_hp)
+                    print("Starmie attacks with " + enemy_last_attack + " your new health is " + Char_hp)
                 else:
                     print("Your Charmander attackes with slash dealing 3 damage to the onix")
-                    onix_health=(onix_health - tackle)
-                    onix_hp=str(onix_health)
-                    print("onix new health total is "+ onix_hp)
-                    print("onix attacks back")
-                    enemy_attack=random.choice(onix_attack)
+                    star_health=(star_health - tackle)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=(water_gun + 2)
                     Player_health=(Player_health - enemy_attack)
                     Char_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with " + enemy_last_attack + " your new health is " + Char_hp)
-            elif (onix_health < 0):
-                print("You have beaten brock")
+                    print("Starmie attacks with " + enemy_last_attack + " your new health is " + Char_hp)
+            elif (star_health < 0):
+                print("You have beaten Misty")
+                badge=badge + 1
                 break
             else:
-                print("you have lost to brock")
+                print("you have lost to Misty")
                 break
                 
         elif starter=="Bulbasur":
