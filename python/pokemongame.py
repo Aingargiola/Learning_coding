@@ -5,6 +5,7 @@ player=input(str("What is your name\n"))
 
 pokemon=("Charmander, Bulbasur, Squirtle")
 starter=input("Which pokemon do you choose\nHere are the pokemon " + pokemon + "\n")
+starter=starter.lower()
 print("You chose " + starter + " as your starter pokemon")
 Player_health=10
 play_again='y'
@@ -15,8 +16,8 @@ while(play_again == 'y'):
     tackle=2
     rock_throw=random.randint(1,3)
     ember=random.randint(1,5)
-    vine_whip=random.randint(3, 7)
-    Bubble=random.randint(3,8)
+    vine_whip=random.randint(3, 6)
+    Bubble=random.randint(3,6)
     onix_health=10
     onix_attack=[tackle, rock_throw]
     onix_hp=str(onix_health)
@@ -24,7 +25,7 @@ while(play_again == 'y'):
     vine_level=str(vine_whip)
     Bubble_level=str(Bubble)
     while (Player_health > 0):
-        if starter=="Charmander":
+        if starter=="charmander":
             # attack=input("Do you want to attack with tackle or ember?")
             if (Player_health > 0 and onix_health > 0):
                 attack=input("Do you want to attack with tackle or ember?")
@@ -59,13 +60,13 @@ while(play_again == 'y'):
                 print("you have lost to brock")
                 break
                 
-        elif starter=="Bulbasur":
+        elif starter=="bulbasur":
             # attack=input("Do you want to attack with tackle or Vinewhip?")
             if (Player_health > 0 and onix_health > 0):
                 attack=input("Do you want to attack with tackle or Vinewhip?")
                 if attack == "Vinewhip":
-                    print("You deal " + vine_level + " to the onix")
-                    onix_health=(onix_health - vine_whip)
+                    print("You deal " + (vine_level + 2) + " to the onix")
+                    onix_health=(onix_health - (vine_whip +2))
                     onix_hp=str(onix_health)
                     print("onix new health total is "+ onix_hp)
                     print("onix attacks back")
@@ -94,13 +95,13 @@ while(play_again == 'y'):
             else:
                 print("you have lost to brock")
                 quit
-        elif starter=="Squirtle":
+        elif starter=="squirtle":
             # attack=input("Do you want to attack with tackle or Bubble?")
             if (Player_health > 0 and onix_health > 0):
                 attack=input("Do you want to attack with tackle or Bubble?")
                 if attack == "Bubble":
-                    print("You attack with bubble and deal " + Bubble_level + " damage to the onix")
-                    onix_health=(onix_health - Bubble)
+                    print("You attack with bubble and deal " + (Bubble_level + 2) + " damage to the onix")
+                    onix_health=(onix_health - (Bubble +2))
                     onix_hp=str(onix_health)
                     print("onix new health total is "+ onix_hp)
                     print("onix attacks back")
@@ -142,7 +143,7 @@ while(play_again == 'y'):
         # print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
         # print("Misty sends out Starmie")
         
-        if starter=="Charmander":
+        if starter=="charmander":
             print("Your pokemon has gained 10hp and learned slash")
             # attack=input("Do you want to attack with slash or ember?")
             if (Player_health > 0 and star_health > 0):
@@ -177,7 +178,7 @@ while(play_again == 'y'):
                 print("you have lost to Misty")
                 break
                 
-        elif starter=="Bulbasur":
+        elif starter=="bulbasur":
             print("Your pokemon has gained 10hp and learned Quick attack")
             attack=input("Do you want to attack with quickattack or Vinewhip?")
             if (Player_health > 0 and star_health > 0):
@@ -212,7 +213,7 @@ while(play_again == 'y'):
             else:
                 print("you have lost to Misty")
                 break
-        elif starter=="Squirtle":
+        elif starter=="squirtle":
             print("Your pokemon has gained 10hp and learned slash")
             attack=input("Do you want to attack with slash or Bubble?")
             if (Player_health > 0 and star_health > 0):
