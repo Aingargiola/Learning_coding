@@ -62,7 +62,7 @@ while True:
         princess = input("Do you try and save her?y/n\n")
         if princess == "y":
                 print("You save the princess and escape the castle")
-        else: print("The princess shoots you for being an asshole")
+        else: print("The princess shoots you for being an selfish")
         quit()
     elif response == "forward":
         wall = input("You find a wall you can climb do you climb it?.y/n\n")

@@ -7,8 +7,9 @@ pokemon=("Charmander, Bulbasur, Squirtle")
 starter=input("Which pokemon do you choose\nHere are the pokemon " + pokemon + "\n")
 print("You chose " + starter + " as your starter pokemon")
 Player_health=10
+play_again='y'
 
-while (Player_health > 0):
+while(play_again == 'y'):
     print("You have made it to your first gym trainer Brock.  He is a strong trainer that uses onix.")
     badge=0
     tackle=2
@@ -132,6 +133,7 @@ while (Player_health > 0):
     star_health=20
     Player_health=20
     slash=3
+    quicka=4
     water_gun=random.randint(2,6)
     print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
     print("Misty sends out Starmie")
@@ -166,8 +168,8 @@ while (Player_health > 0):
                     Player_health=(Player_health - enemy_attack)
                     Char_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("Starmie attacks with " + enemy_last_attack + " your new health is " + Char_hp)
-            elif (star_health < 0):
+                    print("Starmie attacks with water gun your new health is " + Char_hp)
+            elif (star_health <= 0):
                 print("You have beaten Misty")
                 badge=badge + 1
                 break
@@ -176,77 +178,80 @@ while (Player_health > 0):
                 break
                 
         elif starter=="Bulbasur":
-            print("Your pokemon has gained 10hp and learned slash")
-            attack=input("Do you want to attack with slash or Vinewhip?")
-            if (Player_health > 0 and onix_health > 0):
+            print("Your pokemon has gained 10hp and learned Quick attack")
+            attack=input("Do you want to attack with quickattack or Vinewhip?")
+            if (Player_health > 0 and star_health > 0):
                 if attack == "Vinewhip":
                     print("You deal " + vine_level + " to the onix")
-                    onix_health=(onix_health - vine_whip)
-                    onix_hp=str(onix_health)
-                    print("onix new health total is "+ onix_hp)
-                    print("onix attacks back")
-                    enemy_attack=random.choice(onix_attack)
+                    onix_health=(star_health - vine_whip)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=water_gun
                     Player_health=(Player_health - enemy_attack)
                     Bulb_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
+                    print("Starmie attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
                 else:
-                    print("Your Bulbasur attackes with tackle dealing 2 damage to the onix")
-                    onix_health=(onix_health - tackle)
-                    onix_hp=str(onix_health)
-                    print("onix new health total is "+ onix_hp)
+                    print("Your Bulbasur attackes with quick attack dealing 4 damage to the onix")
+                    star_health=(star_health - quicka)
+                    star_hp=str(star_health)
+                    print("onix new health total is "+ star_hp)
                     print("onix attacks back")
-                    enemy_attack=random.choice(onix_attack)
+                    enemy_attack=water_gun
                     Player_health=(Player_health - enemy_attack)
                     Bulb_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
+                    print("Starmie attacks with water gun your new health is " + Bulb_hp)
 
             
-            elif (onix_health < 0):
-                print("You have beaten brock")
+            elif (star_health <= 0):
+                print("You have beaten Misty")
+                badge= badge + 1
                 break
             else:
-                print("you have lost to brock")
+                print("you have lost to Misty")
                 break
         elif starter=="Squirtle":
             print("Your pokemon has gained 10hp and learned slash")
             attack=input("Do you want to attack with slash or Bubble?")
-            if (Player_health > 0 and onix_health > 0):
+            if (Player_health > 0 and star_health > 0):
                 if attack == "Bubble":
                     print("You attack with bubble and deal " + Bubble_level + " damage to the onix")
-                    onix_health=(onix_health - Bubble)
-                    onix_hp=str(onix_health)
-                    print("onix new health total is "+ onix_hp)
-                    print("onix attacks back")
-                    enemy_attack=random.choice(onix_attack)
+                    star_health=(star_health - Bubble)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=water_gun - 2
                     Player_health=(Player_health - enemy_attack)
                     Sqir_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with " + enemy_last_attack + " your new health is " + Sqir_hp)
+                    print("Starme attacks with Water gun its not very affective your new health is " + Sqir_hp)
                 else:
                     print("Your Squirtle attackes with tackle dealing 2 damage to the onix")
-                    onix_health=(onix_health - tackle)
-                    onix_hp=str(onix_health)
-                    print("onix new health total is "+ onix_hp)
-                    print("onix attacks back")
-                    enemy_attack=random.choice(onix_attack)
+                    star_health=(star_health - slash)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=water_gun - 2
                     Player_health=(Player_health - enemy_attack)
-                    Bulb_hp=str(Player_health)
+                    Sqir_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with " + enemy_last_attack + " your new health is " + Sqir_hp)
-            elif (onix_health < 0):
-                print("You have beaten brock")
+                    print("onix attacks with Water gun its not very affective your new health is " + Sqir_hp)
+            elif (star_health <= 0):
+                print("You have beaten Misty")
+                badge = badge + 1
+                print(f"You have completed your pokemen journey with {badge} badges")
+                play_again = input("Do you want to play again y/n")
                 break
             else:
-                print("you have lost to brock")
+                print("you have lost to Misty")
                 break
         else:
             print("Pokemon not found")
             break
+    break
 
-
-    
 
 
     
