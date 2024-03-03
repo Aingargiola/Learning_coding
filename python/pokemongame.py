@@ -194,11 +194,11 @@ while(play_again == 'y'):
                     enemy_last_attack=str(enemy_attack)
                     print("Starmie attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
                 else:
-                    print("Your Bulbasur attackes with quick attack dealing 4 damage to the onix")
+                    print("Your Bulbasur attackes with quick attack dealing 4 damage to the Starmie")
                     star_health=(star_health - quicka)
                     star_hp=str(star_health)
-                    print("onix new health total is "+ star_hp)
-                    print("onix attacks back")
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
                     enemy_attack=water_gun
                     Player_health=(Player_health - enemy_attack)
                     Bulb_hp=str(Player_health)
@@ -218,7 +218,7 @@ while(play_again == 'y'):
             attack=input("Do you want to attack with slash or Bubble?")
             if (Player_health > 0 and star_health > 0):
                 if attack == "Bubble":
-                    print("You attack with bubble and deal " + Bubble_level + " damage to the onix")
+                    print("You attack with bubble and deal " + Bubble_level + " damage to the Starmie")
                     star_health=(star_health - Bubble)
                     star_hp=str(star_health)
                     print("Starmie new health total is "+ star_hp)
@@ -227,7 +227,7 @@ while(play_again == 'y'):
                     Player_health=(Player_health - enemy_attack)
                     Sqir_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("Starme attacks with Water gun its not very affective your new health is " + Sqir_hp)
+                    print("Starmie attacks with Water gun its not very affective your new health is " + Sqir_hp)
                 else:
                     print("Your Squirtle attackes with tackle dealing 2 damage to the onix")
                     star_health=(star_health - slash)
@@ -248,9 +248,17 @@ while(play_again == 'y'):
             else:
                 print("you have lost to Misty")
                 break
+                
         else:
             print("Pokemon not found")
             break
+        print("You have made it to the third gym leader Surge he uses a Raichu")
+        raichu_health=25
+        Player_health=30
+        Bubblebeam=random.randint(3,7)
+        razor_leaf=random.randint(2,8)
+        Bite=5
+        thunder_bolt=random.randint(1,7)
     break
 
 
