@@ -100,8 +100,8 @@ while(play_again == 'y'):
             if (Player_health > 0 and onix_health > 0):
                 attack=input("Do you want to attack with tackle or Bubble?")
                 if attack == "Bubble":
-                    print("You attack with bubble and deal " + (Bubble_level + 2) + " damage to the onix")
-                    onix_health=(onix_health - (Bubble +2))
+                    print(f"You attack with bubble and deal " + (Bubble_level) + " damage to the onix")
+                    onix_health=(onix_health - (Bubble))
                     onix_hp=str(onix_health)
                     print("onix new health total is "+ onix_hp)
                     print("onix attacks back")
@@ -184,7 +184,7 @@ while(play_again == 'y'):
             if (Player_health > 0 and star_health > 0):
                 if attack == "Vinewhip":
                     print("You deal " + vine_level + " to the onix")
-                    onix_health=(star_health - vine_whip)
+                    star_health=(star_health - vine_whip)
                     star_hp=str(star_health)
                     print("Starmie new health total is "+ star_hp)
                     print("Starmie attacks back")
@@ -238,7 +238,7 @@ while(play_again == 'y'):
                     Player_health=(Player_health - enemy_attack)
                     Sqir_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("onix attacks with Water gun its not very affective your new health is " + Sqir_hp)
+                    print("Starmie attacks with Water gun its not very affective your new health is " + Sqir_hp)
             elif (star_health <= 0):
                 print("You have beaten Misty")
                 badge = badge + 1
@@ -252,13 +252,124 @@ while(play_again == 'y'):
         else:
             print("Pokemon not found")
             break
-        print("You have made it to the third gym leader Surge he uses a Raichu")
-        raichu_health=25
-        Player_health=30
-        Bubblebeam=random.randint(3,7)
-        razor_leaf=random.randint(2,8)
-        Bite=5
-        thunder_bolt=random.randint(1,7)
+    print("You have made it to the third gym leader Surge he uses a Raichu")
+    raichu_health=15
+    Player_health=30
+    Bubblebeam=random.randint(3,7)
+    razor_leaf=random.randint(2,8)
+    Bite=5
+    thunder_bolt=random.randint(2,9)
+    print("Lance sends out a raichu its is Strong and fast but has low hp")
+    while(Player_health > 0):
+        # print("You have made it to the second gym leader.\nMisty is a strong gym leader that uses Water pokemon.")
+        # print("Misty sends out Starmie")
+        
+        if starter=="charmander":
+            print("Your pokemon has gained 10hp and learned Bite")
+            # attack=input("Do you want to attack with slash or ember?")
+            if (Player_health > 0 and star_health > 0):
+                attack=input("Do you want to attack with Bite or ember?")
+                if attack == "ember":
+                    print("You deal " + ember_level + " to the Raichu")
+                    raichu_health=(raichu_health - ember)
+                    raichu_hp=str(raichu_health)
+                    print("Raichu new health total is "+ raichu_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=(thunder_bolt)
+                    Player_health=(Player_health - enemy_attack)
+                    Char_hp=str(Player_health)
+                    enemy_last_attack=str(enemy_attack)
+                    print("Raichu attacks with " + enemy_last_attack + " your new health is " + Char_hp)
+                else:
+                    print("Your Charmander attackes with Bite dealing 5 damage to the onix")
+                    raichu_health=(raichu_health - Bite)
+                    raichu_hp=str(raichu_health)
+                    print("Raichu new health total is "+ raichu_hp)
+                    print("Raichu attacks back")
+                    enemy_attack=(thunder_bolt)
+                    Player_health=(Player_health - enemy_attack)
+                    Char_hp=str(Player_health)
+                    enemy_last_attack=str(enemy_attack)
+                    print("Raichu attacks with water gun your new health is " + Char_hp)
+            elif (raichu_health < 1):
+                print("You have beaten Sugre")
+                badge=badge + 1
+                break
+            else:
+                print("you have lost to Surge")
+                break
+                
+        elif starter=="bulbasur":
+            print("Your pokemon has gained 10hp and learned Razor Leaf")
+            attack=input("Do you want to attack with quickattack or Razor Leaf?")
+            if (Player_health > 0 and star_health > 0):
+                if attack == "Razor Leaf":
+                    print("You deal " + razor_leaf + " to the Raichu")
+                    raichu_health=(star_health - razor_leaf)
+                    raichu_hp=str(raichu_health)
+                    print("Starmie new health total is "+ raichu_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=thunder_bolt
+                    Player_health=(Player_health - enemy_attack)
+                    Bulb_hp=str(Player_health)
+                    enemy_last_attack=str(enemy_attack)
+                    print("Raichu attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
+                    # Break point here in code need to update below
+                else:
+                    print("Your Bulbasur attackes with quick attack dealing 4 damage to the Starmie")
+                    star_health=(star_health - quicka)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=water_gun
+                    Player_health=(Player_health - enemy_attack)
+                    Bulb_hp=str(Player_health)
+                    enemy_last_attack=str(enemy_attack)
+                    print("Starmie attacks with water gun your new health is " + Bulb_hp)
+
+            
+            elif (raichu_health < 1):
+                print("You have beaten Misty")
+                badge= badge + 1
+                break
+            else:
+                print("you have lost to Misty")
+                break
+        elif starter=="squirtle":
+            print("Your pokemon has gained 10hp and learned slash")
+            attack=input("Do you want to attack with slash or Bubble?")
+            if (Player_health > 0 and star_health > 0):
+                if attack == "Bubble":
+                    print("You attack with bubble and deal " + Bubble_level + " damage to the Starmie")
+                    star_health=(star_health - Bubble)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=water_gun - 2
+                    Player_health=(Player_health - enemy_attack)
+                    Sqir_hp=str(Player_health)
+                    enemy_last_attack=str(enemy_attack)
+                    print("Starmie attacks with Water gun its not very affective your new health is " + Sqir_hp)
+                else:
+                    print("Your Squirtle attackes with tackle dealing 2 damage to the onix")
+                    star_health=(star_health - slash)
+                    star_hp=str(star_health)
+                    print("Starmie new health total is "+ star_hp)
+                    print("Starmie attacks back")
+                    enemy_attack=water_gun - 2
+                    Player_health=(Player_health - enemy_attack)
+                    Sqir_hp=str(Player_health)
+                    enemy_last_attack=str(enemy_attack)
+                    print("onix attacks with Water gun its not very affective your new health is " + Sqir_hp)
+            elif (star_health < 1):
+                print("You have beaten Surge")
+                badge = badge + 1
+                print(f"You have completed your pokemen journey with {badge} badges")
+                play_again = input("Do you want to play again y/n")
+                break
+            else:
+                print("you have lost to Surge")
+                break
     break
 
 
