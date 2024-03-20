@@ -11,3 +11,20 @@
 # Output the results to a single .txt file and open it with your favorite text editor.
 
 # For this challenge you must use at least one variable and one function.
+
+function lookup(){
+    echo "Pick a website example google.com"
+    read amazon
+   # amazon=google.com
+    whois $amazon > example.txt
+    dig $amazon >> example.txt
+    host $amazon >> eample.txt
+    nslookup $amazon >> example.txt
+
+
+
+
+
+
+
+}
