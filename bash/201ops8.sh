@@ -20,7 +20,8 @@ X=1
 echo "Please enter an IP to ping.Format (xxx.xxx.xxx.xxx)"
 read IpAddress
 
-while [ $X = 1 ]
+until [ $X = 3 ]
 do
-    ping $IpAddress
+    ping  $IpAddress
+    ((X++))
 done
