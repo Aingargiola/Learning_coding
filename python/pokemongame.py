@@ -274,7 +274,7 @@ while(play_again == 'y'):
                     raichu_health=(raichu_health - ember)
                     raichu_hp=str(raichu_health)
                     print("Raichu new health total is "+ raichu_hp)
-                    print("Starmie attacks back")
+                    print("Raichu attacks back")
                     enemy_attack=(thunder_bolt)
                     Player_health=(Player_health - enemy_attack)
                     Char_hp=str(Player_health)
@@ -290,7 +290,7 @@ while(play_again == 'y'):
                     Player_health=(Player_health - enemy_attack)
                     Char_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("Raichu attacks with water gun your new health is " + Char_hp)
+                    print("Raichu attacks with thunder bolt your new health is " + Char_hp)
             elif (raichu_health < 1):
                 print("You have beaten Sugre")
                 badge=badge + 1
@@ -307,14 +307,15 @@ while(play_again == 'y'):
                     print("You deal " + razor_leaf + " to the Raichu")
                     raichu_health=(star_health - razor_leaf)
                     raichu_hp=str(raichu_health)
-                    print("Starmie new health total is "+ raichu_hp)
-                    print("Starmie attacks back")
+                    print("Raichu new health total is "+ raichu_hp)
+                    print("Raichu attacks back")
                     enemy_attack=thunder_bolt
                     Player_health=(Player_health - enemy_attack)
                     Bulb_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
                     print("Raichu attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
                     # Break point here in code need to update below
+                    
                 else:
                     print("Your Bulbasur attackes with quick attack dealing 4 damage to the Starmie")
                     star_health=(star_health - quicka)
