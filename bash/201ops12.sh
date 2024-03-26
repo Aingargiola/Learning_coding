@@ -17,4 +17,7 @@ good)
 bad)    
     echo -n "thats good"
     ;;
+ok)
+    echo -n "Make it better"
+    ;;
     esac
