@@ -314,13 +314,13 @@ while(play_again == 'y'):
                     Bulb_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
                     print("Raichu attacks with " + enemy_last_attack + " your new health is " + Bulb_hp)
-                    # Break point here in code need to update below
+                
                     
                 else:
-                    print("Your Bulbasur attackes with quick attack dealing 4 damage to the Starmie")
-                    star_health=(star_health - quicka)
-                    star_hp=str(star_health)
-                    print("Starmie new health total is "+ star_hp)
+                    print("Your Bulbasur attackes with quick attack dealing 4 damage to the Raichu")
+                    raichu_health=(raichu_health - quicka)
+                    raichu_hp=str(raichu_health)
+                    print("Starmie new health total is "+ raichu_hp)
                     print("Starmie attacks back")
                     enemy_attack=water_gun
                     Player_health=(Player_health - enemy_attack)
@@ -330,29 +330,30 @@ while(play_again == 'y'):
 
             
             elif (raichu_health < 1):
-                print("You have beaten Misty")
+                print("You have beaten Lance")
                 badge= badge + 1
                 break
             else:
-                print("you have lost to Misty")
+                print("you have lost to Lance")
                 break
         elif starter=="squirtle":
-            print("Your pokemon has gained 10hp and learned slash")
-            attack=input("Do you want to attack with slash or Bubble?")
+            print("Your pokemon has gained 10hp and learned Bubblebeam")
+            attack=input("Do you want to attack with slash or Bubblebeam?")
             if (Player_health > 0 and star_health > 0):
-                if attack == "Bubble":
-                    print("You attack with bubble and deal " + Bubble_level + " damage to the Starmie")
-                    star_health=(star_health - Bubble)
-                    star_hp=str(star_health)
-                    print("Starmie new health total is "+ star_hp)
-                    print("Starmie attacks back")
-                    enemy_attack=water_gun - 2
+                if attack == "Bubblebeam":
+                    print("You attack with bubblebeam and deal " + Bubblebeam + " damage to the Raichu")
+                    raichu_health=(raichu_health - Bubblebeam)
+                    raichu_hp=str(raichu_health)
+                    print("Raichu new health total is "+ raichu_hp)
+                    print("Raichu attacks back")
+                    enemy_attack=thunder_bolt + 2
                     Player_health=(Player_health - enemy_attack)
                     Sqir_hp=str(Player_health)
                     enemy_last_attack=str(enemy_attack)
-                    print("Starmie attacks with Water gun its not very affective your new health is " + Sqir_hp)
+                    print("Raichu attacks with Thunder bolt its very affective your new health is " + Sqir_hp)
+                    # Break Point
                 else:
-                    print("Your Squirtle attackes with tackle dealing 2 damage to the onix")
+                    print("Your Squirtle attackes with slash dealing 3 damage to the Raichu")
                     star_health=(star_health - slash)
                     star_hp=str(star_health)
                     print("Starmie new health total is "+ star_hp)
