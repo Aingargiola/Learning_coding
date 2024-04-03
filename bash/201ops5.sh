@@ -14,9 +14,11 @@
 
 
 
-echo "enter website"
-read website
+
 function lookup(){
+
+    echo "enter website"
+    read website
     whois $website > whois.txt
     dig $website >> whois.txt
     host $website >> whois.txt
@@ -24,8 +26,7 @@ function lookup(){
 
 }
 lookup
-
-
-echo "enter website"
-read website
 lookup
+
+
+

@@ -57,13 +57,13 @@ source:       IANA
 
 # whois.verisign-grs.com
 
-   Domain Name: REDDIT.COM
-   Registry Domain ID: 153584275_DOMAIN_COM-VRSN
+   Domain Name: AMAZON.COM
+   Registry Domain ID: 281209_DOMAIN_COM-VRSN
    Registrar WHOIS Server: whois.markmonitor.com
    Registrar URL: http://www.markmonitor.com
-   Updated Date: 2022-03-28T09:30:06Z
-   Creation Date: 2005-04-29T17:59:19Z
-   Registry Expiry Date: 2024-04-29T17:59:19Z
+   Updated Date: 2023-05-16T19:03:14Z
+   Creation Date: 1994-11-01T05:00:00Z
+   Registry Expiry Date: 2024-10-31T04:00:00Z
    Registrar: MarkMonitor Inc.
    Registrar IANA ID: 292
    Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
@@ -74,23 +74,27 @@ source:       IANA
    Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
    Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
    Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
-   Name Server: NS-1029.AWSDNS-00.ORG
-   Name Server: NS-1887.AWSDNS-43.CO.UK
-   Name Server: NS-378.AWSDNS-47.COM
-   Name Server: NS-557.AWSDNS-05.NET
+   Name Server: NS1.AMZNDNS.CO.UK
+   Name Server: NS1.AMZNDNS.COM
+   Name Server: NS1.AMZNDNS.NET
+   Name Server: NS1.AMZNDNS.ORG
+   Name Server: NS2.AMZNDNS.CO.UK
+   Name Server: NS2.AMZNDNS.COM
+   Name Server: NS2.AMZNDNS.NET
+   Name Server: NS2.AMZNDNS.ORG
    DNSSEC: unsigned
    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of whois database: 2024-03-14T17:40:39Z <<<
+>>> Last update of whois database: 2024-03-14T23:21:20Z <<<
 
 # whois.markmonitor.com
 
-Domain Name: reddit.com
-Registry Domain ID: 153584275_DOMAIN_COM-VRSN
+Domain Name: amazon.com
+Registry Domain ID: 281209_DOMAIN_COM-VRSN
 Registrar WHOIS Server: whois.markmonitor.com
 Registrar URL: http://www.markmonitor.com
-Updated Date: 2022-03-28T09:30:07+0000
-Creation Date: 2005-04-29T17:59:19+0000
-Registrar Registration Expiration Date: 2024-04-29T00:00:00+0000
+Updated Date: 2023-05-16T18:56:31+0000
+Creation Date: 1994-11-01T05:00:00+0000
+Registrar Registration Expiration Date: 2024-10-30T07:00:00+0000
 Registrar: MarkMonitor, Inc.
 Registrar IANA ID: 292
 Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
@@ -101,72 +105,91 @@ Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeletePro
 Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
 Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
 Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
-Registrant Organization: Reddit Inc.
-Registrant State/Province: CA
+Registry Registrant ID: 
+Registrant Name: Hostmaster, Amazon Legal Dept.
+Registrant Organization: Amazon Technologies, Inc.
+Registrant Street: P.O. Box 8102
+Registrant City: Reno
+Registrant State/Province: NV
+Registrant Postal Code: 89507
 Registrant Country: US
-Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/reddit.com
-Admin Organization: Reddit Inc.
-Admin State/Province: CA
+Registrant Phone: +1.2062664064
+Registrant Phone Ext: 
+Registrant Fax: +1.2062667010
+Registrant Fax Ext: 
+Registrant Email: hostmaster@amazon.com
+Registry Admin ID: 
+Admin Name: Hostmaster, Amazon Legal Dept.
+Admin Organization: Amazon Technologies, Inc.
+Admin Street: P.O. Box 8102
+Admin City: Reno
+Admin State/Province: NV
+Admin Postal Code: 89507
 Admin Country: US
-Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/reddit.com
-Tech Organization: Reddit Inc.
-Tech State/Province: CA
+Admin Phone: +1.2062664064
+Admin Phone Ext: 
+Admin Fax: +1.2062667010
+Admin Fax Ext: 
+Admin Email: hostmaster@amazon.com
+Registry Tech ID: 
+Tech Name: Hostmaster, Amazon Legal Dept.
+Tech Organization: Amazon Technologies, Inc.
+Tech Street: P.O. Box 8102
+Tech City: Reno
+Tech State/Province: NV
+Tech Postal Code: 89507
 Tech Country: US
-Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/reddit.com
-Name Server: ns-1887.awsdns-43.co.uk
-Name Server: ns-378.awsdns-47.com
-Name Server: ns-1029.awsdns-00.org
-Name Server: ns-557.awsdns-05.net
+Tech Phone: +1.2062664064
+Tech Phone Ext: 
+Tech Fax: +1.2062667010
+Tech Fax Ext: 
+Tech Email: hostmaster@amazon.com
+Name Server: ns1.amzndns.org
+Name Server: ns2.amzndns.co.uk
+Name Server: ns2.amzndns.org
+Name Server: ns1.amzndns.com
+Name Server: ns2.amzndns.com
+Name Server: ns1.amzndns.co.uk
+Name Server: ns1.amzndns.net
+Name Server: ns2.amzndns.net
 DNSSEC: unsigned
 URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2024-03-14T17:37:39+0000 <<<
+>>> Last update of WHOIS database: 2024-03-14T23:21:15+0000 <<<
 
 
-; <<>> DiG 9.10.6 <<>> reddit.com
+; <<>> DiG 9.10.6 <<>> amazon.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11505
-;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51424
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
 ; EDNS: version: 0, flags:; udp: 512
 ;; QUESTION SECTION:
-;reddit.com.			IN	A
+;amazon.com.			IN	A
 
 ;; ANSWER SECTION:
-reddit.com.		139	IN	A	151.101.65.140
-reddit.com.		139	IN	A	151.101.129.140
-reddit.com.		139	IN	A	151.101.1.140
-reddit.com.		139	IN	A	151.101.193.140
+amazon.com.		190	IN	A	52.94.236.248
+amazon.com.		190	IN	A	205.251.242.103
+amazon.com.		190	IN	A	54.239.28.85
 
-;; Query time: 33 msec
+;; Query time: 13 msec
 ;; SERVER: 2607:f428:ffff:ffff::1#53(2607:f428:ffff:ffff::1)
-;; WHEN: Thu Mar 14 12:40:55 CDT 2024
-;; MSG SIZE  rcvd: 103
+;; WHEN: Thu Mar 14 18:21:37 CDT 2024
+;; MSG SIZE  rcvd: 87
 
-reddit.com has address 151.101.129.140
-reddit.com has address 151.101.193.140
-reddit.com has address 151.101.1.140
-reddit.com has address 151.101.65.140
-reddit.com has IPv6 address 2a04:4e42:200::396
-reddit.com has IPv6 address 2a04:4e42:600::396
-reddit.com has IPv6 address 2a04:4e42::396
-reddit.com has IPv6 address 2a04:4e42:400::396
-reddit.com mail is handled by 10 aspmx3.googlemail.com.
-reddit.com mail is handled by 5 alt1.aspmx.l.google.com.
-reddit.com mail is handled by 5 alt2.aspmx.l.google.com.
-reddit.com mail is handled by 1 aspmx.l.google.com.
-reddit.com mail is handled by 10 aspmx2.googlemail.com.
+amazon.com has address 52.94.236.248
+amazon.com has address 205.251.242.103
+amazon.com has address 54.239.28.85
+amazon.com mail is handled by 5 amazon-smtp.amazon.com.
 Server:		2607:f428:ffff:ffff::1
 Address:	2607:f428:ffff:ffff::1#53
 
 Non-authoritative answer:
-Name:	reddit.com
-Address: 151.101.193.140
-Name:	reddit.com
-Address: 151.101.129.140
-Name:	reddit.com
-Address: 151.101.65.140
-Name:	reddit.com
-Address: 151.101.1.140
+Name:	amazon.com
+Address: 54.239.28.85
+Name:	amazon.com
+Address: 52.94.236.248
+Name:	amazon.com
+Address: 205.251.242.103
 

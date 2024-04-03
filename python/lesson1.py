@@ -21,6 +21,7 @@
 # # This a boolean uses which is True or False in python
 # print(True > False)
 # print(True < False)
+# print(1==1)
 # # input("Enter a number")
 
 # print(0.0000000000000000000001)
