@@ -20,7 +20,7 @@
 
 # Create a nested if statement.
 
-# Create an if statement that includes pass to avoid errors.
+
 
 a = int(input("Enter a number "))
 b = int(input("Enter a number "))
@@ -28,5 +28,9 @@ if (a == b) and (b == a):
     print("The numbers are the same")
 elif (a > b):
     print("A is greater than B")
+    if (a > 7):
+        print(f"{a} is a large number")
+    else:
+        print(f"{a} is a small number")
 elif ( a < b ):
     print(f"{a} is less than {b}")
