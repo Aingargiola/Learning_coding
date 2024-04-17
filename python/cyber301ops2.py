@@ -24,12 +24,9 @@
 
 a = int(input("Enter a number "))
 b = int(input("Enter a number "))
-if (a or b != int(a, b)):
-    print("Not valid number")
-elif (a == b) and (b == a):
+if (a == b) and (b == a):
     print("The numbers are the same")
 elif (a > b):
     print("A is greater than B")
 elif ( a < b ):
     print(f"{a} is less than {b}")
-
