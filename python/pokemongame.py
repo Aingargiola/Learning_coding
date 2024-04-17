@@ -243,7 +243,7 @@ while(play_again == 'y'):
                 print("You have beaten Misty")
                 badge = badge + 1
                 print(f"You have completed your pokemen journey with {badge} badges")
-                play_again = input("Do you want to play again y/n")
+                # play_again = input("Do you want to play again y/n")
                 break
             else:
                 print("you have lost to Misty")
@@ -267,7 +267,7 @@ while(play_again == 'y'):
         if starter=="charmander":
             print("Your pokemon has gained 10hp and learned Bite")
             # attack=input("Do you want to attack with slash or ember?")
-            if (Player_health > 0 and star_health > 0):
+            if (Player_health > 0 and raichu_health > 0):
                 attack=input("Do you want to attack with Bite or ember?")
                 if attack == "ember":
                     print("You deal " + ember_level + " to the Raichu")
@@ -302,7 +302,7 @@ while(play_again == 'y'):
         elif starter=="bulbasur":
             print("Your pokemon has gained 10hp and learned Razor Leaf")
             attack=input("Do you want to attack with quickattack or Razor Leaf?")
-            if (Player_health > 0 and star_health > 0):
+            if (Player_health > 0 and raichu_health > 0):
                 if attack == "Razor Leaf":
                     print("You deal " + razor_leaf + " to the Raichu")
                     raichu_health=(star_health - razor_leaf)
@@ -339,7 +339,7 @@ while(play_again == 'y'):
         elif starter=="squirtle":
             print("Your pokemon has gained 10hp and learned Bubblebeam")
             attack=input("Do you want to attack with slash or Bubblebeam?")
-            if (Player_health > 0 and star_health > 0):
+            if (Player_health > 0 and raichu_health > 0):
                 if attack == "Bubblebeam":
                     print("You attack with bubblebeam and deal " + Bubblebeam + " damage to the Raichu")
                     raichu_health=(raichu_health - Bubblebeam)

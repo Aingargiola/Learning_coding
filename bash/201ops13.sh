@@ -20,7 +20,7 @@
 
 function validation() {
     read number
-   if ((number <= 5 && number >= 2 )) ;
+   if ((number <= 5 && number >= 2 )) 
     then
         echo "Your number is valid"
     elif
