@@ -14,5 +14,7 @@
 john = 4.
 mary = 3.
 adam = 5.
+all_names = (john, mary, adam)
 total_apples = john + mary + adam
+print(all_names)
 print("The total numbe of we have is " , total_apples)
