@@ -8,6 +8,6 @@
 #Write your code below this row 👇
 even_sum = 0
 for nums in range (2, 101, 2):
-    #print(nums)
+    print(nums)
     even_sum += nums
-print(even_sum)
+print(f"Final total is {even_sum}")
