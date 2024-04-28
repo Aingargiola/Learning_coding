@@ -29,14 +29,14 @@ We will begin by viewing the help information screen by executing the following 
 
 hping3 -h
 
-hping command
+
 The default packet which hping will create is a TCP packet. This means that even if a device such as a router or firewall is blocking ping requests, we can still perform host discovery and reconnaissance with hping.
 
 We will perform our first scan using the SYN flag. This will send out the same packets as nmap would when performing a -sS scan. We will also check if port 80 is open. “-c 5” parameter tells us that this scan will only be repeated 5 times. Type the following command:
 
 hping3 scanme.nmap.org -p 80 -S -c 5
 
-hping
+
 Note that, in my scan, the packets came back with the flags “SA” set. This indicates that the port is open. If the flag were set to “RA”, the port would be closed.
 
 # Task 2:
@@ -46,8 +46,7 @@ hping3 scanme.nmap.org -8 1-1024 -S
 
 hping3 192.168.1.123 -8 1-1024 -S
 
-hping
-hping command
+
 In these two examples, we scanned two different machines. As a result of both scans, the ports that are detected as open give us some information about the operating systems of the machines. We can roughly say that the first is Linux OS and the second is Windows.
 
 # Task 3:
@@ -59,7 +58,7 @@ hping command
 # Task 4:
 Nowadays, many websites which are heavily accessible use multiple servers to meet incoming requests. For example, a web request to www.google.com is handled by more than one server. In order to learn the IP addresses of these servers that are behind the DNS, type this command:
 
-hping
+
 hping3 www.google.com -S -p 80 -T –ttl 13 –tr-keep-ttl -n
 
 In this case, we used the TTL in traceroute to obtain some of the load-balancing devices’ IP addresses.
@@ -67,17 +66,16 @@ In this case, we used the TTL in traceroute to obtain some of the load-balancing
 # Task 5:
 We can use hping command as a ordinary ping tool. “-1” parameter indicates that this is an ICMP package.
 
-hping command
 Traceroute to a target using ICMP mode and show verbose.
 
-traceroute
+
 hping3 scanme.nmap.org -1 –traceroute -n
 
 Hping also improves on the traceroute ability. Traceroute uses ping to determine the location of servers, firewalls, routers etc. This can be very useful for hackers looking to create a network map of their target. For this reason, many firewalls do not respond to ping packets. Hping does the same thing but can also use TCP packets instead of ICMP, which all firewalls will allow (otherwise, it would not allow internet traffic). Let’s try this now:
 
 hping3 scanme.nmap.org -n -S -s 8080 -p 80 –traceroute
 
-traceroute
+
 Traceroute to determine if port 80 is open, set local traffic to be generated from source port 8080.
 
 # Task 6:
