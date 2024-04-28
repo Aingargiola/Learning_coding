@@ -58,9 +58,11 @@ Traceroute is also useful for determining if a host is up. For example, try targ
 traceroute eheheueueu.com
 
 traceroute
+
 We can see that this hostname doesn’t exist through traceroute.
 
 linux traceroute
+
 We can also see if the hostname exists but is down. It is possible to understand this if we take the following response:
 
 
