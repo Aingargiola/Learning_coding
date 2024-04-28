@@ -61,8 +61,7 @@ traceroute eheheueueu.com
 
 We can see that this hostname doesn’t exist through traceroute.
 
-linux traceroute
 
-We can also see if the hostname exists but is down. It is possible to understand this if we take the following response:
+
 
 
