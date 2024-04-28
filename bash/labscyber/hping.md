@@ -6,7 +6,7 @@ Learn how to use hping for security auditing and the testing of networking devic
 
 # Lab Purpose:
 
-Hping is an open-source packet generator and analyser for the TCP/IP protocol. It is often referred to as a swiss army knife, as it can perform a lot of packet-related functions for security testing and auditing.
+Hping is an open-source packet generator and analyser for the TCP/IP protocol. It is often referred to as a swiss army knife, as it can perform a lot of packet-related functions for security testing and auditing.  With this lab feel free to turn on wireshark and capture the packets to see what hping is sending.
 
 # Lab Tool:
 
@@ -54,7 +54,7 @@ If we want to perform a more detailed scan, we can scan all the ports beginning 
 
 hping3 -S 139.162.196.104 -p ++1
 
-hping command
+
 # Task 4:
 Nowadays, many websites which are heavily accessible use multiple servers to meet incoming requests. For example, a web request to www.google.com is handled by more than one server. In order to learn the IP addresses of these servers that are behind the DNS, type this command:
 
