@@ -40,7 +40,7 @@ We will then look at the list of scanners available to use by typing the followi
 
 scanless -l
 
-scanless
+
 This will list the different scanners and the sites where they are available.
 
 # Task 3:
@@ -58,17 +58,19 @@ We will now run through a number of scans using different tools to determine how
 
 scanless -t scanme.nmap.org -s hackertarget
 
-scanless
+
 This is a scan using spiderip:
 
 scanless -t scanme.nmap.org -s spiderip
 
-scanless
+
+
 This is a scan using t1shopper:
 
 scanless -t scanme.nmap.org -s t1shopper
 
-scanless
+
+
 Each of these tools will priortise scanning for different ports and, as such, they will provide different information.
 
 Unlike others, “ipfingerprints” also estimates OS for the target, and reports results with estimation percentages.
