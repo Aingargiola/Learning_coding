@@ -29,7 +29,7 @@ We will begin by targeting a big site such as “facebook.com”. Type the follo
 
 traceroute facebook.com
 
-traceroute in linux
+# traceroute in linux
 1) The very first line after the traceroute shows Hostname and IP address, which it has obtained by using the reverse DNS look up.
 
 2) 30 hops means that traceroute will only route the first 30 routes between your system and the victim’s system. 30 is often too much; it usually ends in 3 to 15 hops, though it can sometime go deeper depending on the site’s security and lack of response.
@@ -57,7 +57,7 @@ Traceroute is also useful for determining if a host is up. For example, try targ
 
 traceroute eheheueueu.com
 
-traceroute
+
 
 We can see that this hostname doesn’t exist through traceroute.
 
