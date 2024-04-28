@@ -80,3 +80,5 @@ scanless
 If we want to use all of the scanning tools available to us to get a more comprehensive scan of the target, we can use the following command:
 
 scanless -t scanme.nmap.org -a
+
+What did this scan show us?  Any useful information?
