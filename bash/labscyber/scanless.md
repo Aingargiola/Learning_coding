@@ -77,7 +77,7 @@ Unlike others, “ipfingerprints” also estimates OS for the target, and report
 
 scanless -t scanme.nmap.org -s ipfingerprints
 
-scanless
+
 # Task 4:
 If we want to use all of the scanning tools available to us to get a more comprehensive scan of the target, we can use the following command:
 
