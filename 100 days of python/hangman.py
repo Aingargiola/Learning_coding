@@ -1,4 +1,6 @@
-
+# Today in our ops challenge we are going to create a word guesing game like hangman.  I have some code listed below as a starting point.
+# I need you to all the game to go any number of wrong guess you would like till it end telling the player they lost.  
+# Hint remember to convert user input to a lower case letter to match teh word in our word_list
 import random
 word_list = ["aardvark", "baboon", "python", "camel", "chicken", "penguin", "leapord", "elephant", "monkey"]
 chosen_word = random.choice(word_list)
