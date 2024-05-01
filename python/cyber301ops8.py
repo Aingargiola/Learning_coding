@@ -5,12 +5,14 @@ import time
 
 #Start code below this line:
 
-
+print(time.ctime())
 mississippi = 1 
 for mississippi in range(1,6):
     print(mississippi, "Mississippi")
     time.sleep(1)
 print("Ready or not here  I come")
+print(time.ctime())
+
 
 
 # while mississippi < 6:
