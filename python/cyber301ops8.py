@@ -10,5 +10,11 @@ mississippi = 1
 for mississippi in range(1,6):
     print(mississippi, "Mississippi")
     time.sleep(1)
-    pass
 print("Ready or not here  I come")
+
+
+# while mississippi < 6:
+#     print(mississippi, "Mississippi")
+#     time.sleep(1)
+#     mississippi += 1
+# print("Ready or not here I come!")
