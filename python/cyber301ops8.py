@@ -5,7 +5,7 @@ import time
 
 #Start code below this line:
 
-print(time.ctime())
+print(time.strftime("%Y-%m-%d %H:%M:%S"))
 mississippi = 1 
 for mississippi in range(1,6):
     print(mississippi, "Mississippi")
