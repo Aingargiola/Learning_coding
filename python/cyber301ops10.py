@@ -37,7 +37,7 @@ elif b == "Options":
 else:
     print("input error")
     quit()
-anwser = input("Enter yes or no: ")
+anwser = input("Do you want to continue yes or no: ")
 if anwser == "yes":
     print(response)
 else:
