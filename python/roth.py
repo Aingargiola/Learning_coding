@@ -30,6 +30,7 @@ while True:
     if age == r_age:
         break
 while True:
+    growth = float(.04)
     roth_balance = roth_balance + (roth_balance * growth)
     r_years = int(Death - r_age)
     r_salary =float(roth_balance  * growth)
