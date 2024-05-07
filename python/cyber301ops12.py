@@ -94,9 +94,9 @@ while True:
                 print("You find tony stark stuck in cave building a suit and help him escape and you escape also")
             else: print("You find the true boogeyman John Wick and he kills all the creatures of the forest and you become ruler of the forest as he leaves to avenge the death of his dog")
             #Mac command
-            #os.system("open \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
+            os.system("open \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
             # Windows command
-            os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
+            # os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
     else:
         print("I didn't understand that.\n")
 
