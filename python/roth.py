@@ -29,7 +29,8 @@ while True:
     total_money = int(money + match_money)
     if age == r_age:
         break
-while True:
+retire = input("Do you want to calculate your post retirement income? YN \n")
+while retire == "Y":
     growth = float(.04)
     roth_balance = roth_balance + (roth_balance * growth)
     r_years = int(Death - r_age)
