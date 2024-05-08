@@ -62,7 +62,7 @@ while True:
         princess = input("Do you try and save her?y/n\n")
         if princess == "y":
                 print("You save the princess and escape the castle")
-        else: print("The princess shoots you for being an selfish")
+        else: print("The princess shoots you for being selfish")
         quit()
     elif response == "forward":
         wall = input("You find a wall you can climb do you climb it?.y/n\n")
@@ -94,9 +94,9 @@ while True:
                 print("You find tony stark stuck in cave building a suit and help him escape and you escape also")
             else: print("You find the true boogeyman John Wick and he kills all the creatures of the forest and you become ruler of the forest as he leaves to avenge the death of his dog")
             #Mac command
-            os.system("open \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
+            # os.system("open \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
             # Windows command
-            # os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
+            os.system("start \"\" https://www.youtube.com/watch?v=yu3iX6zxbm0")
     else:
         print("I didn't understand that.\n")
 
