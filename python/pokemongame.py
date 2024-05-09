@@ -267,7 +267,7 @@ while(play_again == 'y'):
         if starter=="charmander":
             print("Your pokemon has gained 10hp and learned Bite")
             # attack=input("Do you want to attack with slash or ember?")
-            if (Player_health > 0 and star_health > 0):
+            if (Player_health > 0 and raichu_health > 0):
                 attack=input("Do you want to attack with Bite or ember?")
                 if attack == "ember":
                     print("You deal " + ember_level + " to the Raichu")
