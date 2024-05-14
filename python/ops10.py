@@ -1,5 +1,3 @@
-
- 
 # Requirements for assignment:
 # Create if statements using logical conditons
 #
