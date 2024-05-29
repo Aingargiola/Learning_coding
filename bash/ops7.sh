@@ -1,4 +1,5 @@
 # Main
+# This is built to run on mac
 
 echo "CPU"
 lshw -C cpu | grep -i product
