@@ -34,7 +34,7 @@ The next menu will ask you which method you want to choose to harvest a victimâ€
 # Task 4:
 SET will ask you for your IP address so that it can send the POST requests from the cloned website back to your machine. For the purpose of this lab, enter your Kali machineâ€™s local IP address. This can be found by opening a new terminal and typing ifconfig.
 
-Once you tell SET that you would like to clone a website, it will then ask you for the URL of the site you wish to clone. You can enter any site you like, but for this lab I will be using https://www.facebook.com.
+Once you tell SET that you would like to clone a website, it will then ask you for the URL of the site you wish to clone. You can enter any site you like, but for this lab we will be using https://www.facebook.com.
 
 
 # Task 5:
