@@ -32,7 +32,7 @@ while True:
 retire = input("Do you want to calculate your post retirement income?Y/N \n")
 Death = 90
 while retire == "Y":
-    growth = float(.04)
+    growth = float(.06)
     roth_balance = roth_balance + (roth_balance * growth)
     r_years = int(Death - r_age)
     r_salary =float(roth_balance  * growth)
