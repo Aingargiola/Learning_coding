@@ -7,20 +7,20 @@
 num1=6
 num2=3
 
-# function add(){
-#   num3=$(( $num1 + $num2 ))
-#  echo "The numbers added toegther is $num3"
+function add(){
+  num3=$(( $num1 + $num2 ))
+ echo "The numbers added toegther is $num3"
    
-# }
-# add
+}
+add
 
-# function div(){
-#   num4=$(( $num3 * $num1 ))
-#   echo "The new total is $num4"
-# }
-# div
+function div(){
+  num4=$(( $num3 * $num1 ))
+  echo "The new total is $num4"
+}
+div
 
-# add
+add
 
 
 
