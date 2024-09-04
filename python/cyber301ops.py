@@ -1,5 +1,5 @@
 # Write a multi-line comment with your name, favorite food, and dream job on 3 different lines.
-print("My name is Anthony, my favorite food is pizza, and my dream job is data managment")
+print("My name is Anthony, my favorite food is pizza, and my dream job is ")
 # assign 5 different data types to 5 different variables. At least one datatype must be a string.
 a = "Dog"
 b = int(15)
