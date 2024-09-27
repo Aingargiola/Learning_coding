@@ -28,14 +28,3 @@
 
 
 
-# Create a list of at least 5 elements of mixed data types
-# replace a part of it with something else
-# append or insert several more items to the list
-# find and print the length of the list
-# slice a sub-section of the 1st list, and save it to a different 2nd list
-# print the 2nd list
-# extend your original list with the 2nd list sliced above
-# Create a new list called "simList" containing at least 5 elements of the same data type, either string, integer, float, or Boolean.
-# sort "simList", and print the list
-# copy the "simList" list to another 3rd list
-# add the 2nd and 3rd lists together into a 4th list
