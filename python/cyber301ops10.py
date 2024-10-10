@@ -18,6 +18,7 @@
 
 # For the given URL, print response header information to the screen.
 from urllib import response
+
 import requests
 b = input("Get, Post, Put, Delete , Head, Patch, Options:")
 if b == "Get":
