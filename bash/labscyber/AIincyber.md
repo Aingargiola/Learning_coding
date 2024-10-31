@@ -34,3 +34,13 @@
 - Have chatgpt create you a security training guide to protect from script kiddies
 - What are script kiddies?
 - What is a major resource a script kiddie might use?
+
+# Part 7
+- Reaearch what notebooklm is?
+- Have chatgpt to create you a paper on a specfic topic
+- Run the paper created by ai through notebooklm and turn it into a audio file
+
+# Part 8
+- Open this excel file: https://1drv.ms/x/s!AkVulw2otmmFgmXoTvA8l3B0YPKH?e=OFEFdw
+- Have chatgpt write you and excel formula that grabs row 1 from the Random Sheet and outputs in cell b2 on anwsers in alphabetical order
+
