@@ -15,7 +15,7 @@
 # # # prints out with seperation and end statement with * but does not start on new line
 # print("My", "name", "is", sep="_", end="*")
 
-# # Line 19 is a string and Line 20 is an integer 
+# Line 19 is a string and Line 20 is an integer 
 # print("2")
 # print(2)
 # # This a boolean uses which is True or False in python
@@ -28,13 +28,13 @@
 # # # #Write a one-line piece of code, using the print() function, as well as the newline and escape characters, to match the expected result outputted on three lines.
 # # print("I'm\n" "Learning\n" "Python")
 
-# # Using python as a calculator
+# Using python as a calculator
 # print(2+2)
 # # when both ** arguments are integers, the result is an integer, too;
 # # when at least one ** argument is a float, the result is a float, too.
 # print(2 ** 2)
 # print(2 ** 2.)
-# # An * (asterisk) sign is a multiplication operator.
+# An * (asterisk) sign is a multiplication operator.
 
 # # # A / (slash) sign is a division operator.
 # # # A division sign always lead to a float if needed or not
@@ -49,32 +49,35 @@
 # print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
 # # # This equation will complete what is in double parenthsis and then will complete left to right
 My_Var = 5
-#This is a variable you can use one word or multiple words with an underscore
-print(My_Var)
+# #This is a variable you can use one word or multiple words with an underscore
+# print(My_Var)
 # # You can call a varibale like above
 # # You can use many variable to achieve you goal
-# Name = "Anthony"
+Name = "Anthony"
 # print(My_Var, Name)
-# print("My Name is " + Name)
+# print("My Name is " + Name + " Hello")
 # # # You can declare the variable something else like shown below just remember the code reads line by line going down
 # Name = "Steve"
 # Last_Name = "John"
 # print(Name)
 # Name = Name + " Joe"
+# print(Name)
 # Name = Name + Last_Name
+# print(Name)
+# Name = "John"
 # print(Name)
 
 # # Using math and rounding in varibales to get expected outcomes
 # # The round command rounds the nubmer to 1 2 or 3 decimal points as defined
-# kilometers = 12.252263
-# miles = 7.585151543
+# kilometers = 12.552263
+# miles = 7.88515154354615
 
 # miles_to_kilometers = (miles * 1.61)
 # kilometers_to_miles = (kilometers / 1.61)
-# # print(miles + kilometers)
+# print(miles + kilometers)
 
-# print(miles, "miles is", round(miles_to_kilometers, 8), "kilometers")
-# print(kilometers, "kilometers is", round(kilometers_to_miles, 3), "miles")
+# print(miles, "miles is", round(miles_to_kilometers, 5), "kilometers")
+# print(kilometers, "kilometers is", round(kilometers_to_miles, 4), "miles")
 
 
 #input allows the computer to read the user input
@@ -87,26 +90,27 @@ print(My_Var)
 # # You can prints multiple strings or variable in one line 
 # print(anything + " wow " + color)
 # print(color * 80)
-# # # convert a number into a string with
+# # convert a number into a string with
 # str(7)
 # number = 7
 # str(number)
 # float(number)
 # int(number)
+# number = input(float("Enter a number\n"))
 
 
 
-# # a double == compares to things together in python
-# print("cat" == "dog")
+# a double == compares to things together in python
+# print("dog" == "dog")
 # print(1 == 2)
 # # # One will print out True and the other will print out False since its comparing the values
 # # # != is not equal to like show below
 # print(2 != 3)
 # # Could use > or < or >= or <= also to compare variables or numbers 
-# print(2 >= 1)
+# print(2 < 1)
 # # # example with using variable
 # dogs = 1.5
-# print(dogs >= 1)
+# print(dogs >= 3)
 # # Basic if or else statment in python
 # weather = input("Is the weather good or bad\n")
 # if weather == "good":
@@ -119,6 +123,9 @@ print(My_Var)
 # if income < 85528:
 # 	tax = income * 0.18 - 556.02
 # 	print(tax)
+# elif income > 95000:
+#     tax = income * 0.18 - 556.02
+#     print(tax)
 # else:
 # 	tax = (income - 85528) * 0.32 + 14839.02
 # 	print(tax)
@@ -138,7 +145,7 @@ print(My_Var)
 # Lets learn about a for loop 
 
 # i = 0
-# for i in range(1, 6):
+# for i in range(3, 6):
 #     print("hello")
 #     print("Welcome")
 #     pass
