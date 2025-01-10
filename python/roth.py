@@ -10,7 +10,7 @@ money = int(salary * (held / 100))
 match_money = int(salary * (match/100))
 total_money = int(money + match_money)
 increase = int(input("How much do you expect your pay to go up a year?\n"))
-growth = float(.09)
+growth = float(.08)
 print(money)
 print(total_money)
 roth_balance = int(input("Do you have anything starting in your account?\n"))
@@ -32,7 +32,7 @@ while True:
 retire = input("Do you want to calculate your post retirement income?Y/N \n")
 Death = 90
 while retire == "Y":
-    growth = float(.06)
+    growth = float(.04)
     roth_balance = roth_balance + (roth_balance * growth)
     r_years = int(Death - r_age)
     r_salary =float(roth_balance  * growth)
