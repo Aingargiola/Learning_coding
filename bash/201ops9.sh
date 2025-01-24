@@ -20,9 +20,9 @@ read input
     if [ $input = 1 ]
         then echo "Hello World!"
     elif [ $input = 2 ]
-        then ping -c 1 192.168.0.1
+        then ping  192.168.0.1
     elif [ $input = 3 ]
-        then ifconfig
+        then ipconfig
     else echo "Invalid entry"
 fi
 echo "do you want to play again: y/n"
