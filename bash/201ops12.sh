@@ -19,5 +19,7 @@ bad)
     ;;
 ok)
     echo -n "Make it better"
+*)
+    echo -n "Error"
     ;;
     esac
