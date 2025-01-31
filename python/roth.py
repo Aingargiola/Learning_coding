@@ -45,5 +45,7 @@ while True:
             print(f"Your current age is {age}")
             if age == death:
                 break
+        if age == death:
+            break
 print("Your remaining balance at death to pass onto your kids is:")
 print(round(roth_balance, 2))
