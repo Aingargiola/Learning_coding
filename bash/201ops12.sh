@@ -21,6 +21,6 @@ ok)
     echo -n "Make it better"
     ;;
 *)
-    echo -n "Error"
+    echo -n "Invalid input. Please enter good, bad, or ok."
     ;;
     esac
