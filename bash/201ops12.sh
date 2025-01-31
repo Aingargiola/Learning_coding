@@ -11,7 +11,7 @@ read day
 
 case $day in
 good) 
-    echo -n "i dont care $user"
+    echo -n "i dont care"
     ;;
 
 bad)    
