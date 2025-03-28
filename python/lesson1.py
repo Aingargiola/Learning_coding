@@ -1,4 +1,4 @@
-# # # #How to print to screen in python 
+# # #How to print to screen in python 
 # print("Hissss...")
 # print("Hello World!")
 # # #Print with no variable cause to skip a line
@@ -26,7 +26,7 @@
 # print(float(number))
 
 # # # #Write a one-line piece of code, using the print() function, as well as the newline and escape characters, to match the expected result outputted on three lines.
-# # print("I'm\n" "Learning\n" "Python")
+# print("I'm\n" "Learning\n" "Python")
 
 # Using python as a calculator
 # print(2+2)
@@ -51,12 +51,12 @@
 My_Var = 5
 # #This is a variable you can use one word or multiple words with an underscore
 # print(My_Var)
-# # You can call a varibale like above
-# # You can use many variable to achieve you goal
-Name = "Anthony"
+# # # You can call a varibale like above
+# # # You can use many variable to achieve you goal
+# Name = "Anthony"
 # print(My_Var, Name)
 # print("My Name is " + Name + " Hello")
-# # # You can declare the variable something else like shown below just remember the code reads line by line going down
+# # # # You can declare the variable something else like shown below just remember the code reads line by line going down
 # Name = "Steve"
 # Last_Name = "John"
 # print(Name)
@@ -76,8 +76,8 @@ Name = "Anthony"
 # kilometers_to_miles = (kilometers / 1.61)
 # print(miles + kilometers)
 
-# print(miles, "miles is", round(miles_to_kilometers, 5), "kilometers")
-# print(kilometers, "kilometers is", round(kilometers_to_miles, 4), "miles")
+# print(miles, "miles is", round(miles_to_kilometers, 3), "kilometers")
+# print(kilometers, "kilometers is", round(kilometers_to_miles, 3), "miles")
 
 
 #input allows the computer to read the user input
@@ -96,7 +96,7 @@ Name = "Anthony"
 # str(number)
 # float(number)
 # int(number)
-# number = input(float("Enter a number\n"))
+# number = input(int("Enter a number\n"))
 
 
 
@@ -105,11 +105,11 @@ Name = "Anthony"
 # print(1 == 2)
 # # # One will print out True and the other will print out False since its comparing the values
 # # # != is not equal to like show below
-# print(2 != 3)
+# print(2.5 != 3.2)
 # # Could use > or < or >= or <= also to compare variables or numbers 
 # print(2 < 1)
-# # # example with using variable
-# dogs = 1.5
+# # # # example with using variable
+# dogs = 3.5
 # print(dogs >= 3)
 # # Basic if or else statment in python
 # weather = input("Is the weather good or bad\n")
@@ -136,16 +136,16 @@ Name = "Anthony"
 # tax = round(tax, 2)
 # print("The tax is:", tax)
 # While loop in python  a loop will keep running till the while is met you can have an infiinte loop
-# counter = 5
-# while counter != 0:
+# counter = 0
+# while counter != 5:
 #     print("Inside the loop.", counter)
-#     counter -= 1
+#     counter += 1
 # print("Outside the loop.", counter)
 # The loop here counts down till the counter does not equal 0 and counts down by 1 each time it runs
 # Lets learn about a for loop 
 
 # i = 0
-# for i in range(3, 6):
+# for i in range(2, 9):
 #     print("hello")
 #     print("Welcome")
 #     pass
@@ -157,10 +157,10 @@ Name = "Anthony"
 #         break
 # print("You've successfully left the loop!")
 # This is a loop with an if or else statement
-# counter = 10
-# while counter > 5:
-#     print("Your number is two high", counter)
-#     counter -= 1
-# else:
-#       print("Your Number is to low")
-# pass
+counter = 10
+while counter > 5:
+    print("Your number is two high", counter)
+    counter -= 1
+else:
+      print("Your Number is to low")
+pass
