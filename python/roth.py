@@ -30,6 +30,8 @@ while True:
     total_money = int(money + match_money)
     if age == r_age:
         retire = input("Do you want to calculate your post retirement income? Y/N \n").upper()
+        if retire != "Y":
+            break
         death = 90
         while retire == "Y":
             growth = float(.04)
